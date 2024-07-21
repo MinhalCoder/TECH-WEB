@@ -1,0 +1,43 @@
+.editorspicks-main-heading {
+    font-weight: 700;
+    font-family: "Poppins";
+  
+    background: linear-gradient(180deg, #ffffff 0%, #fefefe 0.01%, #999999 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  
+
+  .editors-content{
+    width: 400px;
+  }
+
+  .editors-post-title{
+    line-height: 1.5;
+  }
+
+  .editors-author-sec {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+    margin-bottom: 2em;
+}
+
+.editors-author-info {
+    display: block;
+    font-size: small;
+}
+.editors-author-info-date {
+color: #CBCBE8;
+font-size: smaller;
+}
+
+.editors-author-info p {
+    margin: 0; 
+}
+
+.editors-arrow-icon{
+    margin-left: 11em;
+}

@@ -1,0 +1,10 @@
+body {
+  position: relative;
+  width: 1440px;
+  /* height: 6011px; */
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(180deg, #2f0856 0%, #0a3452 100%);
+  /* background:#000 ; */
+  
+}

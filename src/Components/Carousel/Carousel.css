@@ -1,0 +1,64 @@
+.Carousel{
+    display: flex;
+    width: 78%;
+    margin-left: 6%;
+    margin-top: 3em;
+    padding: 4em;
+    padding-bottom: 1em;
+    background-color: #ffffff15;
+    border-radius: 8px;
+
+    
+  }
+
+  .carouselSection{
+   width: 400px;
+   margin-left:4%;
+  }
+
+  .carouselHeading{
+width: 470px;
+height: 300px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 80px;
+text-transform: capitalize;
+background: linear-gradient(180deg, #FFFFFF 0%, #FEFEFE 0.01%, #999999 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+  }
+
+  
+
+  .btn-gradient {
+padding: 10px 20px;
+color: #FFFFFF;
+font-family: 'Poppins';
+font-weight: 600;
+
+background: linear-gradient(89.93deg, rgba(47, 8, 86, 0.2) 38.47%, rgba(12, 78, 126, 0.2) 99.94%);
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+
+  }
+
+  .btn-1{
+    padding: 10px 20px;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-weight: 600;
+
+background: rgba(255, 254, 254, 0.2);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+
+  }
+  

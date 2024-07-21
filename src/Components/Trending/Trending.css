@@ -1,0 +1,76 @@
+.trending-main-heading {
+  
+    font-weight: 700;
+    font-family: "Poppins";
+  
+    background: linear-gradient(180deg, #ffffff 0%, #fefefe 0.01%, #999999 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .trending-right-arrow-icon{
+    margin-left: 3em;
+}
+
+.trending-heading-container{
+    margin-top: 4em;
+}
+
+.trending-post p{
+width: 400px;
+margin-left: 8px;
+color: #CBCBE8;
+margin-top: 2em;
+}
+
+.trending-btn{
+ 
+    padding: 10px 20px;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-weight: 600;
+
+background: rgba(255, 254, 254, 0.2);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+
+
+}
+
+.trending-post{
+    background-image: url(/src/assets/Images/Rectangle-bg.png);
+    background-size: 400px;
+    padding: 15px;
+    margin-right: 7em;
+}
+
+.search2-bar{
+    background-image: url(/src/assets/Images/searchbar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+   
+    position: relative;
+  }
+
+
+
+.search2-input{
+    border: none;
+
+}
+  .search2-input::placeholder{
+    color: #B1B1B1;
+  }
+  .search2-input:focus{
+    outline: none ;
+    border: none;
+    box-shadow: none ;
+  }
+
+  .search2-icon{
+    color: #fff;
+    font-size: 2rem;
+    margin: 5px 6px 5px 10px;
+  }

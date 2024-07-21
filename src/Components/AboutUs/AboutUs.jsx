@@ -1,0 +1,27 @@
+import React from 'react'
+import { BsArrowRightCircleFill } from "react-icons/bs";
+import "./AboutUs.css";
+
+const AboutUs = () => {
+  return (
+    <>
+     <div className="aboutus-heading-container d-flex  ">
+    <h1 className="aboutus-main-heading">About Us</h1>
+<BsArrowRightCircleFill className="aboutus-right-arrow-icon   mt-3" color="white" size="2em" />
+    </div>
+
+    <div className="aboutus   ">
+        <img  className='aboutus-img' src="src/assets/Images/about-img.png" alt="" width={300} height={400} />
+    </div>
+    <div className="aboutus-content mt-4">
+    <h4 className='text-white d-block aboutus-content-heading'  >I’m [Your Name], the founder of [Your Blog Name].....</h4>
+    <a href="#"  className="btn aboutus-btn my-2 me-2" > Get started  </a>
+    </div>
+
+    </>
+   
+        
+)
+}
+
+export default AboutUs
