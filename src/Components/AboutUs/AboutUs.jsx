@@ -11,7 +11,7 @@ const AboutUs = () => {
     </div>
 
     <div className="aboutus   ">
-        <img  className='aboutus-img' src="src/assets/Images/about-img.png" alt="" width={300} height={400} />
+        <img  className='aboutus-img' src="public/assets/Images/about-img.png" alt="" width={300} height={400} />
     </div>
     <div className="aboutus-content mt-4">
     <h4 className='text-white d-block aboutus-content-heading'  >I’m [Your Name], the founder of [Your Blog Name].....</h4>

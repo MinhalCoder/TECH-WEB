@@ -39,14 +39,14 @@ border-radius: 5px;
 }
 
 .trending-post{
-    background-image: url(/src/assets/Images/Rectangle-bg.png);
+    background-image: url(public/assets/Images/Rectangle-bg.png);
     background-size: 400px;
     padding: 15px;
     margin-right: 7em;
 }
 
 .search2-bar{
-    background-image: url(/src/assets/Images/searchbar.png);
+    background-image: url(public/assets/Images/searchbar.png);
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;

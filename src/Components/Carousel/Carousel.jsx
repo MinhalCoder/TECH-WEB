@@ -43,7 +43,7 @@ const Carousel = () => {
 
         </div>
       </div>
-       <img className='carousel-bottom-frame' src="src/assets/Images/frame2.png" alt="" />
+       <img className='carousel-bottom-frame' src="public/assets/Images/frame2.png" alt="" />
     </>
   );
 };

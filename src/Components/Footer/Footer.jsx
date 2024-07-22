@@ -12,11 +12,11 @@ const Footer = () => {
         <h3>Logo/Web Name</h3>
         <p className='footer-description mt-5'>The .......... empowers businesses to showcase their offerings with a visually stunning interface and immersive digital experience.</p>
         <div className="footer-follow-icon-box d-flex justify-content-between mt-5">
-        <a href=""><img src="/src/assets/Images/insta.png" alt="" /> </a>
-        <a href=""><img src="/src/assets/Images/X.png" alt="" /></a>
-        <a href=""><img src="/src/assets/Images/web.png" alt="" /></a>
-        <a href=""><img src="/src/assets/Images/linkedin.png" alt="" /></a>
-        <a href=""><img src="/src/assets/Images/fb.png" alt="" /></a>  
+        <a href=""><img src="public/assets/Images/insta.png" alt="" /> </a>
+        <a href=""><img src="public/assets/Images/X.png" alt="" /></a>
+        <a href=""><img src="public/assets/Images/web.png" alt="" /></a>
+        <a href=""><img src="public/assets/Images/linkedin.png" alt="" /></a>
+        <a href=""><img src="public/assets/Images/fb.png" alt="" /></a>  
     </div>
         </div>
         <div className="footer-mid">

@@ -14,7 +14,7 @@
   }
   
   .newsletter-content{
-    background-image: url(/src/assets/Images/glow.png);
+    background-image: url(public/assets/Images/glow.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -31,7 +31,7 @@
 
 
   .newsletter-searchbar{
-    background-image: url(/src/assets/Images/searchbar.png);
+    background-image: url(public/assets/Images/searchbar.png);
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
