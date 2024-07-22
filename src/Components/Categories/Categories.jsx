@@ -21,40 +21,40 @@ const Categories = () => {
                         <li>Lorem ip</li>
                        
                     </ul>
-                    <div className="vector d-flex justify-content-between mt-5">
+                    <div className="vector d-flex justify-content-between mt-5 ">
                         <img src="src/assets/Images/vector.png" alt="" width={20} height={20} />
                         <p>More on visual appeal</p>
                     </div>
                 </div>
                 <div className="col-6 ">
-                <img className='category-img mx-5' src="src/assets/Images/img2.png" alt="" width={220} height={250} />
+                <img className='category-img mx-5' src="src/assets/Images/img2.png" alt="" width={240} height={240} />
                 
                 </div>
             </div>
             {/* 2nd row */}
             <div className="category-content d-flex mt-5 text-white">
             <div className="col-6 ">
-                <img className='category-img' src="src/assets/Images/img1.png" alt="" width={220} height={250} />
+                <img className='category-img ' src="src/assets/Images/img1.png" alt="" width={240} height={240} />
                 
                 </div>
-                <div className="col-6  mx-5">
-                    <h3>TECH</h3>
-                    <ul  className='list list-unstyled'>
+                <div className="col-6   mx-5">
+                    <h3 className='mx-4'>TECH</h3>
+                    <ul  className='list list-unstyled mx-4'>
                         <li>Lorem ipsum</li>
                         <li>Lorem ips</li>
                         <li>Lorem ip</li>
                         <li>Lorem ip</li>
                        
                     </ul>
-                    <div className="vector d-flex justify-content-between mt-5">
+                    <div className="vector d-flex justify-content-between mt-5 mx-4">
                         <img src="src/assets/Images/vector.png" alt="" width={20} height={20} />
-                        <p>More on visual appeal</p>
+                        <p  >More on visual... </p>
                     </div>
                 </div>
                
             </div>
             {/* 3rd row */}
-            <div className="category-content d-flex mt-5 text-white">
+            <div className="category-content category-content-3 d-flex mt-5 text-white">
                 <div className="col-6 ">
                     <h3>TECH</h3>
                     <ul  className='list list-unstyled'>
@@ -66,32 +66,32 @@ const Categories = () => {
                     </ul>
                     <div className="vector d-flex justify-content-between mt-5">
                         <img src="src/assets/Images/vector.png" alt="" width={20} height={20} />
-                        <p>More on visual appeal</p>
+                        <p>More on visual appeal </p>
                     </div>
                 </div>
                 <div className="col-6 ">
-                <img className='category-img mx-5' src="src/assets/Images/img2.png" alt="" width={220} height={250} />
+                <img className='category-img mx-5' src="src/assets/Images/img2.png" alt="" width={240} height={240} />
                 
                 </div>
             </div>
             {/* 4th row */}
             <div className="category-content d-flex mt-5 text-white">
             <div className="col-6 ">
-                <img className='category-img' src="src/assets/Images/img1.png" alt="" width={220} height={250} />
+                <img className='category-img' src="src/assets/Images/img1.png" alt="" width={240} height={240} />
                 
                 </div>
                 <div className="col-6  mx-5">
-                    <h3>TECH</h3>
-                    <ul  className='list list-unstyled'>
+                    <h3 className='mx-4' >TECH</h3>
+                    <ul  className='list list-unstyled mx-4'>
                         <li>Lorem ipsum</li>
                         <li>Lorem ips</li>
                         <li>Lorem ip</li>
                         <li>Lorem ip</li>
                        
                     </ul>
-                    <div className="vector d-flex justify-content-between mt-5">
+                    <div className="vector d-flex justify-content-between mt-5 mx-4 ">
                         <img src="src/assets/Images/vector.png" alt="" width={20} height={20} />
-                        <p>More on visual appeal</p>
+                        <p>More on visual </p>
                     </div>
                 </div>
                
@@ -109,15 +109,16 @@ const Categories = () => {
                     </ul>
                     <div className="vector d-flex justify-content-between mt-5">
                         <img src="src/assets/Images/vector.png" alt="" width={20} height={20} />
-                        <p>More on visual appeal</p>
+                        <p>More on visual appeal </p>
                     </div>
                 </div>
                 <div className="col-6 ">
-                <img className='category-img mx-5' src="src/assets/Images/img2.png" alt="" width={220} height={250} />
+                <img className='category-img mx-5' src="src/assets/Images/img2.png" alt="" width={240} height={240} />
                 
                 </div>
             </div>
             </div>
+            
    </>  )
 }
 

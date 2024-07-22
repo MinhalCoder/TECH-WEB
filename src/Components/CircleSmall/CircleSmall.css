@@ -1,5 +1,4 @@
 #small-circle {
-    position: absolute;
     width: 41.64px;
     height: 39.99px;
     background: linear-gradient(180deg, rgba(10, 52, 82, 0.85) -1.35%, rgba(13, 39, 58, 0.85) 48.65%, rgba(82, 28, 135, 0.85) 98.65%);
@@ -19,7 +18,7 @@
 }
 
 .spark-effect {
-    position: absolute;
+    position: fixed;
     width: 5px;
     height: 5px;
     background: rgb(14, 14, 13);

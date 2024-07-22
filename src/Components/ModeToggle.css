@@ -1,0 +1,48 @@
+body {
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+    transition: background 0.3s ease;
+  }
+  
+  body.light-mode {
+    background: linear-gradient(180deg, #2f0856 0%, #0a3452 100%);
+    color: #000000;
+  }
+ 
+
+  body.dark-mode {
+    background: #000;
+    color: #ffffff;
+  }
+
+  body.theme1-mode {
+    background: #2f0856;
+    color: #ffffff;
+  }
+  
+  body.theme2-mode {
+    background: #0a3452;
+    color: #ffffff;
+  }
+  
+  .toggle-container {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    z-index: 1000; /* Ensures the toggle button is on top of all other elements */
+  }
+  
+  #mode-toggle {
+    background: black;
+    border-radius: 50%;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  #icon {
+    display: flex;
+  }
+  

@@ -6,9 +6,13 @@ import CircleSmall from '../CircleSmall/CircleSmall';
 const Carousel = () => {
   return (
     <>
-      <div className="container Carousel ">
+          <CircleSmall/>
+
+      <div className="container Carousel  ">
+
         <div className="row align-items-center">
           <div className="col-md-6">
+
             <div className="carouselContent">
               <h1 className="carouselHeading">
                 <span className="d-block">Grid System For</span>
@@ -34,11 +38,12 @@ const Carousel = () => {
           <div className="col-md-6">
             <div className="carouselSection">
               <CarouselSection />
-              <CircleSmall/>
             </div>
           </div>
+
         </div>
       </div>
+       <img className='carousel-bottom-frame' src="src/assets/Images/frame2.png" alt="" />
     </>
   );
 };

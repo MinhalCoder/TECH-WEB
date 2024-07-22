@@ -1,73 +1,52 @@
-import React from 'react';
-import './Footer.css'; // Ensure this path is correct
+import React from 'react'
+import './Footer.css'
+import Circle from '../Circle/Circle'
 
 const Footer = () => {
   return (
-    <div className="footer">
-      <div className="footer-main">
-        <div className="footer-content">
-          <div className="footer-header">
-            <div className="image-placeholder"></div>
-            <div className="description">
-              The .......... empowers businesses to showcase their offerings with a
-              visually stunning interface and immersive digital experience.
-            </div>
-            <div className="footer-rectangle">
-              <div className="rectangle"></div>
-            </div>
-            <div className="logo-web-name">Logo/Web Name</div>
-          </div>
-          <div className="footer-images">
-            <div className="image-wrapper">
-              <div className="rectangle2"></div>
-              <img className="footer-image" src="image1.svg" alt="Image 1" />
-            </div>
-            <div className="image-wrapper">
-              <div className="rectangle2"></div>
-              <img className="footer-image" src="image2.svg" alt="Image 2" />
-            </div>
-            <div className="image-wrapper">
-              <div className="rectangle2"></div>
-              <img className="footer-image" src="image3.svg" alt="Image 3" />
-            </div>
-            <div className="image-wrapper">
-              <div className="rectangle2"></div>
-              <img className="footer-image" src="image4.svg" alt="Image 4" />
-            </div>
-          </div>
+<>
+    <footer>
+      <Circle/>
+      <div className="footer-container d-flex justify-content-between mt-5  text-white"> 
+        <div className="footer-left">
+        <h3>Logo/Web Name</h3>
+        <p className='footer-description mt-5'>The .......... empowers businesses to showcase their offerings with a visually stunning interface and immersive digital experience.</p>
+        <div className="footer-follow-icon-box d-flex justify-content-between mt-5">
+        <a href=""><img src="/src/assets/Images/insta.png" alt="" /> </a>
+        <a href=""><img src="/src/assets/Images/X.png" alt="" /></a>
+        <a href=""><img src="/src/assets/Images/web.png" alt="" /></a>
+        <a href=""><img src="/src/assets/Images/linkedin.png" alt="" /></a>
+        <a href=""><img src="/src/assets/Images/fb.png" alt="" /></a>  
+    </div>
         </div>
-        <div className="footer-links">
-          <div className="utilities">
-            <div className="utilities-header">
-              <div className="rectangle"></div>
-              <div className="utilities-pages">Utilities Pages</div>
-            </div>
-            <div className="link-list">
-              <div className="link-item">Register</div>
-              <div className="rectangle3"></div>
-              <div className="link-item">Login</div>
-              <div className="link-item">404</div>
-            </div>
-          </div>
-          <div className="main-links">
-            <div className="link-item">Home</div>
-            <div className="link-item">Features</div>
-            <div className="link-item">Blog</div>
-            <div className="link-item">Pricing</div>
-            <div className="link-item">About</div>
-            <div className="link-item">Contact</div>
-            <div className="rectangle"></div>
-          </div>
+        <div className="footer-mid">
+          <h3>Home</h3>
+          <ul className="list-unstyled mt-5 ">
+              <li className="mb-2"><a href="#!" className="footerlist-a ">Home</a></li>
+              <li className="mb-2"><a href="#!" className="footerlist-a">Features</a></li>
+              <li className="mb-2"><a href="#!" className="footerlist-a">Blog</a></li>
+              <li className="mb-2"><a href="#!" className="footerlist-a">Pricing</a></li>
+              <li className="mb-2"><a href="#!" className="footerlist-a">About</a></li>
+              <li className="mb-2"><a href="#!" className="footerlist-a">Contact</a></li>
+            </ul>
+        </div>
+        <div className="footer-right">
+          <h3>Utilities Page</h3>
+          <ul className="list-unstyled mt-5 ">
+              <li className="mb-2"><a href="#!" className="footerlist-a">Register</a></li>
+              <li className="mb-2"><a href="#!" className="footerlist-a">Login</a></li>
+              <li className="mb-2"><a href="#!" className="footerlist-a">404</a></li>
+            </ul>
         </div>
       </div>
-      <div className="footer-bottom">
-        <div className="home-link">Home</div>
-      </div>
-      <div className="footer-copyright">
+
+      <div className="text-center py-2 text-white fs-6 fw-light mt-3">
         Copyright ©2024 ----------------
       </div>
-    </div>
-  );
-};
+    </footer>
 
-export default Footer;
+
+</>  )
+}
+
+export default Footer

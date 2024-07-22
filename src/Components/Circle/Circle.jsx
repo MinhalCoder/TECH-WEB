@@ -64,7 +64,9 @@ function Circle() {
     };
   }, []);
 
-  return <div id="circle" ref={circleRef}></div>;
+  return <div className="parent"> <div id="circle" ref={circleRef}></div></div>
+
+ 
 }
 
 export default Circle;

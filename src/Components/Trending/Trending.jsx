@@ -2,6 +2,8 @@ import React from 'react'
 import { BsArrowRightCircleFill } from "react-icons/bs";
 import "./Trending.css";
 import { IoSearch } from "react-icons/io5";
+import Circle from '../Circle/Circle';
+import CircleSmall from '../CircleSmall/CircleSmall';
 
 
 
@@ -13,7 +15,6 @@ const Trending = () => {
     <h1 className="trending-main-heading">Trending Posts</h1>
 <BsArrowRightCircleFill className="trending-right-arrow-icon   mt-3" color="white" size="2em" />
     </div>
-
     <div className="trending-posts-container">
         <div className="trending-post mt-3 ">
            <img src="/src/assets/Images/img4.png" alt="" width={400} />
@@ -32,12 +33,16 @@ const Trending = () => {
         </div>
     </div>
 
+    <CircleSmall/>
 
     <h3 className="trending-main-heading mt-4">Search</h3>
     <div className="search2-bar w-75">
+      
               <IoSearch className="search2-icon" />
+
                 <input type="text" id="Search2" className="form-control ps-5 bg-transparent  search2-input" placeholder="Search" />
-              </div>
+                </div>
+
       
 
 </>)

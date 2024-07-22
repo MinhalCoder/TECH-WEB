@@ -1,238 +1,33 @@
-.footer,
-.footer * {
+   .footer-container{
+  padding: 2em 5em 2em 5em ;
+  margin-right: 220px;
+  margin-left: 80px;
+}
+
+body.light-mode .footer-container,
+body.theme1-mode .footer-container,
+body.theme2-mode .footer-container{
+  background-image: url(/src/assets/Images/frame2.png), url(/src/assets/Images/frame2.png);
+}
+
+.footer-description{
+  width:400px;
+  color: #CBCBE8;
+  line-height: 2;
+}
+
+.footer-follow-icon-box{
+  
+
+  width: 250px;
   box-sizing: border-box;
-}
+  border-radius: 10px;
+  }
 
-.footer {
-  height: 456px;
-  position: relative;
-}
+  .footerlist-a{
+    text-decoration: none;
+    color: #CBCBE8;
+    line-height: 2;
+  }
 
-.footer-main {
-  width: 1060px;
-  height: 256px;
-  position: absolute;
-  left: calc(50% - 530px);
-  top: calc(50% - 176px);
-}
-
-.footer-content {
-  width: 100%;
-  height: 188px;
-  position: absolute;
-  right: 68.87%;
-  left: 0%;
-  top: 0px;
-}
-
-.footer-header {
-  width: 100%;
-  height: 116px;
-  position: absolute;
-  right: 0%;
-  left: 0%;
-  top: 0px;
-}
-
-.image-placeholder {
-  width: 26.06%;
-  height: 20px;
-  position: absolute;
-  right: 73.94%;
-  left: 0%;
-  top: -0.16px;
-  overflow: hidden;
-}
-
-.description {
-  color: rgba(203, 203, 232, 0.75);
-  text-align: left;
-  font-size: 15px;
-  line-height: 24px;
-  font-weight: 400;
-  position: absolute;
-  right: -0.61%;
-  left: 0%;
-  width: 100.61%;
-  top: 45.84px;
-}
-
-.footer-rectangle {
-  width: 13.64%;
-  height: 28px;
-  position: absolute;
-  right: 76.97%;
-  left: 9.39%;
-  top: 0px;
-}
-
-.rectangle {
-  width: 100%;
-  height: 28px;
-  position: absolute;
-  right: 0%;
-  left: 0%;
-  top: 0px;
-}
-
-.logo-web-name {
-  color: #ffffff;
-  text-align: left;
-  font-family: "Poppins-SemiBold", sans-serif;
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 600;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-
-.footer-images {
-  width: 63.03%;
-  height: 40px;
-  position: absolute;
-  right: 36.97%;
-  left: 0%;
-  top: 148px;
-}
-
-.image-wrapper {
-  width: 19.23%;
-  height: 40px;
-  position: absolute;
-  overflow: hidden;
-}
-
-.rectangle2 {
-  background: rgba(206, 206, 251, 0.05);
-  border-radius: 8px;
-  width: 100%;
-  height: 40px;
-  position: absolute;
-  right: 0%;
-  left: 0%;
-  top: 0px;
-  box-shadow: 0px -12px 24px 0px rgba(159, 114, 255, 0.2);
-}
-
-.footer-image {
-  width: 60%;
-  height: 24px;
-  position: absolute;
-  right: 20%;
-  left: 20%;
-  top: 8px;
-  overflow: visible;
-}
-
-.footer-links {
-  width: 51.89%;
-  height: 256px;
-  position: absolute;
-  right: 0%;
-  left: 48.11%;
-  top: 0px;
-}
-
-.utilities {
-  width: 19.64%;
-  height: 184px;
-  position: absolute;
-  right: 48.18%;
-  left: 32.18%;
-  top: 0px;
-}
-
-.utilities-header {
-  width: 92.59%;
-  height: 28px;
-  position: absolute;
-  right: 7.41%;
-  left: 0%;
-  top: -0.16px;
-}
-
-.utilities-pages {
-  color: #ffffff;
-  text-align: left;
-  font-family: "Poppins-SemiBold", sans-serif;
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 600;
-  position: absolute;
-  right: -48%;
-  left: 0%;
-  width: 148%;
-  top: 0.16px;
-}
-
-.link-list {
-  width: 100%;
-  height: 132px;
-  position: absolute;
-  right: 0%;
-  left: 0%;
-  top: 52px;
-}
-
-.link-item {
-  color: rgba(203, 203, 232, 0.75);
-  text-align: left;
-  font-size: 14px;
-  line-height: 24px;
-  font-weight: 400;
-  position: absolute;
-}
-
-.rectangle3 {
-  width: 100%;
-  height: 19px;
-  position: absolute;
-  right: 0%;
-  left: 0%;
-  top: 0px;
-}
-
-.main-links {
-  width: 100%;
-  height: 204px;
-  position: absolute;
-  right: 0%;
-  left: 0%;
-  top: 52px;
-}
-
-.footer-bottom {
-  width: 10.36%;
-  height: 256px;
-  position: absolute;
-  right: 89.64%;
-  left: 0%;
-  top: 0px;
-}
-
-.home-link {
-  color: rgba(203, 203, 232, 0.75);
-  text-align: left;
-  font-size: 14px;
-  line-height: 24px;
-  font-weight: 400;
-  position: absolute;
-  right: 0%;
-  left: 0%;
-  width: 100%;
-  top: 71.84px;
-}
-
-.footer-copyright {
-  color: #ffffff;
-  text-align: left;
-  font-size: 14px;
-  line-height: 20px;
-  font-weight: 400;
-  position: absolute;
-  right: 35.81%;
-  left: 47.02%;
-  width: 17.17%;
-  top: 394px;
-}
+ 

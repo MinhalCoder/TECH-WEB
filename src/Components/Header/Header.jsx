@@ -10,6 +10,8 @@ import AboutUs from "../AboutUs/AboutUs.jsx";
 import FollowUs from "../FollowUs/FollowUs.jsx";
 import Trending from "../Trending/Trending.jsx";
 import Footer from "../Footer/Footer.jsx";
+import Circle from "../Circle/Circle.jsx";
+import CircleSmall from "../CircleSmall/CircleSmall.jsx";
 
 
 
@@ -43,7 +45,7 @@ const Header = () => {
                         About us
                       </a>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item contact">
                       <a className="nav-link font-weight-semibold text-white" href="#">
                         Contact
                       </a>
@@ -54,14 +56,21 @@ const Header = () => {
                   <div className="line right"></div>
                 </nav>
               </div>
-              <div className="searchbar "> 
+              {/* <div className="searchbar "> 
               <IoSearch className="search-icon" />
                 <input type="text" id="Search" className="form-control ps-5 bg-transparent input" placeholder="Search" />
-              </div>
+              </div> */}
+              <div className="searchbar">
+      
+      <IoSearch className="search-icon" />
+
+        <input type="text" id="Search" className="form-control ps-5 bg-transparent  search-input" placeholder="Search" />
+        </div>
             </div>
           </div>
         </header>
 
+  
         <Carousel />
 
       </div>
@@ -69,8 +78,12 @@ const Header = () => {
 
 
 
-      <div className="container py-5">
+
+      <div className="container frame-container py-5">
+      <Circle/>
+
         <div className="row">
+
           <div className="col-6">
           <LatestPosts/>
           <Categories/>
