@@ -127,6 +127,7 @@ body.dark-mode .frame-container {
 }
   .search-input::placeholder{
     color: #B1B1B1;
+    
   }
   .search-input:focus{
     outline: none ;

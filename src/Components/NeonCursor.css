@@ -1,0 +1,46 @@
+/* Hide the default cursor */
+body, button, a {
+    cursor: none;
+  }
+  
+  /* Base neon cursor styles */
+  .neon-cursor {
+    position: fixed;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    z-index: 10000;
+  }
+  
+  /* Theme 1: Default Neon Green */
+  body.light-mode .neon-cursor {
+    background-color: black; /* Neon green */
+    box-shadow: 0 0 10px white, 0 0 20px white,
+                0 0 30px white, 0 0 40px white;
+  }
+  
+  /* Theme 2: Neon Blue */
+  body.dark-mode .neon-cursor {
+    background-color: rgb(255, 255, 255); /* Neon blue */
+    box-shadow: 0 0 10px white, 0 0 20px white,
+                0 0 30px white, 0 0 40px white;
+  }
+  
+  /* Theme 3: Custom Color #2f0856 */
+  body.theme1-mode .neon-cursor {
+
+
+                background-color: rgba(43, 213, 255, 0.7); /* Custom color #0a3452 */
+    box-shadow: 0 0 10px rgba(43, 213, 255, 0.7), 0 0 20px rgba(43, 213, 255, 0.7),
+                0 0 30px rgba(43, 213, 255, 0.7), 0 0 40px rgba(43, 213, 255, 0.7);
+  }
+  
+  /* Theme 4: Custom Color #0a3452 */
+  body.theme2-mode .neon-cursor {
+    background-color: rgba(68, 4, 68, 0.7); /* Custom color #2f0856 */
+    box-shadow: 0 0 10px rgba(255, 135, 255, 0.7), 0 0 20px rgba(255, 135, 255, 0.7),
+                0 0 30px rgba(255, 135, 255, 0.7), 0 0 40px rgba(255, 135, 255, 0.7);
+  }
+  
