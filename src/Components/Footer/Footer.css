@@ -7,7 +7,7 @@
 body.light-mode .footer-container,
 body.theme1-mode .footer-container,
 body.theme2-mode .footer-container{
-  background-image: url(assets/Images/frame2.png), url(assets/Images/frame2.png);
+  background-image: url(/assets/Images/frame2.png), url(/assets/Images/frame2.png);
 }
 
 .footer-description{

@@ -5,7 +5,7 @@
   
    .frame{
       z-index: -1;
-      background-image: url('assets/Images/Frame1.png'), url('assets//Images/Frame.png');
+      background-image: url('/assets/Images/Frame1.png'), url('/assets//Images/Frame.png');
       background-size: contain;
       background-repeat: no-repeat;
   }
@@ -13,7 +13,7 @@
   body.light-mode .frame-container,
   body.theme1-mode .frame-container,
   body.theme2-mode .frame-container {
-    background-image: url('assets/Images/Frame2.png'), url('assets/Images/Frame2.png');
+    background-image: url('/assets/Images/Frame2.png'), url('/assets/Images/Frame2.png');
     background-repeat: no-repeat;
     background-position: top, 160% top; /* Correctly combining positions for both images */
     margin-top: -20%;
@@ -33,7 +33,7 @@ body.dark-mode .frame-container {
 
     padding: 0px 2px;
     margin-left: 15px;
-    background-image: url(assets/Images/link-bg.png);
+    background-image: url(/assets/Images/link-bg.png);
     background-size: contain;
     background-repeat: no-repeat;
     font-weight: 600;
@@ -49,7 +49,7 @@ body.dark-mode .frame-container {
     border-radius: 5px;
     /* box-shadow: 0 0 0 1px transparent, 0 0 0 1px #7AC7FF, 0 0 0 1px #4706FF;
     background: linear-gradient(180deg, #ffffff69 0%, #513899 70.8%); */
-    background-image: url(assets/Images/link-bg.png);
+    background-image: url(/assets/Images/link-bg.png);
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
@@ -110,7 +110,7 @@ body.dark-mode .frame-container {
 
 
   .searchbar{
-    background-image: url(assets/Images/searchbar.png);
+    background-image: url(/assets/Images/searchbar.png);
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
