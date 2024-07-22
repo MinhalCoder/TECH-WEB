@@ -64,7 +64,7 @@ border-radius: 5px;
 
   body.light-mode .carousel-bottom-frame{
   margin-top: -2%;
-  background-image: url('public/assets/Images/Frame2.png'), url('public/assets//Images/Frame2.png');
+  background-image: url('assets/Images/Frame2.png'), url('assets//Images/Frame2.png');
     background-repeat: no-repeat;
     background-position:top;
     background-position-x: 160% ; 

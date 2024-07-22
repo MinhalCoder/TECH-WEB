@@ -17,7 +17,7 @@ const Trending = () => {
     </div>
     <div className="trending-posts-container">
         <div className="trending-post mt-3 ">
-           <img src="public/assets/Images/img4.png" alt="" width={400} />
+           <img src="assets/Images/img4.png" alt="" width={400} />
            <h5 className='text-white fw-light mt-4 mx-2'>Start developing</h5>
            <p  >Starting to develop idea is always the hardest part but it's also very exciting.</p>
            <a href="#"  className="btn trending-btn my-2 me-2 w-100 " > Button  </a>
@@ -25,7 +25,7 @@ const Trending = () => {
         </div>
 
         <div className="trending-post mt-4 ">
-           <img src="public/assets/Images/img4.png" alt="" width={400} />
+           <img src="assets/Images/img4.png" alt="" width={400} />
            <h5 className='text-white fw-light mt-4 mx-2'>Start developing</h5>
            <p  >Starting to develop idea is always the hardest part but it's also very exciting.</p>
            <a href="#"  className="btn trending-btn my-2 me-2 w-100 " > Button  </a>

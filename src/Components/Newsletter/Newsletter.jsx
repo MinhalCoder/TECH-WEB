@@ -7,7 +7,7 @@ const Newsletter = () => {
 <>
    <div className="newsletter  d-flex">
     <div className="col-6">
-        <img className='mx-5  animated-image' src="public/assets/Images/newsletter.png" alt="" />
+        <img className='mx-5  animated-image' src="assets/Images/newsletter.png" alt="" />
     </div>
 
     <div className="col-6 newsletter-content">

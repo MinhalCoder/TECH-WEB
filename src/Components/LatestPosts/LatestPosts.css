@@ -59,7 +59,7 @@ width: 200px;
 }
 
 .latestpost-post1  {
-    background-image: url(public/assets/Images/Rectangle-bg.png);
+    background-image: url(assets/Images/Rectangle-bg.png);
     border-radius: 15px;
     padding-left: 18px;
     padding-right: 0px;
@@ -70,7 +70,7 @@ width: 200px;
  
 }
 .latestpost-post2 {
-    background-image: url(public/assets/Images/Rectangle-bg.png);
+    background-image: url(assets/Images/Rectangle-bg.png);
     border-radius: 15px;
     padding-left: 18px;
     padding-right: 0px;
