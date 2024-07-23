@@ -8,7 +8,7 @@ const Carousel = () => {
     <>
           <CircleSmall/>
 
-      <div className="container Carousel  ">
+      <div className="container Carousel ">
 
         <div className="row align-items-center">
           <div className="col-md-6">

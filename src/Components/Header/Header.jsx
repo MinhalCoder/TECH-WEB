@@ -18,13 +18,13 @@ import CircleSmall from "../CircleSmall/CircleSmall.jsx";
 const Header = () => {
   return (
     <>
-      <div className="container-fluid frame">
+      <div className="container-fluid frame w-100">
         <header className="header">
-          <div className="container px-4">
-            <div className="d-flex align-items-center justify-content-between py-3">
-              <div className="d-flex align-items-center gap-2">
+          <div className="container ">
+            <div className="d-flex align-items-center justify-content-between py-3 header-items">
+              <div className="d-flex align-items-center ">
                 
-                <h5 className="text-white font-weight-semibold">Logo/Name</h5>
+                <h5 className="text-white font-weight-semibold ">Logo/Name</h5>
               </div>
 
               <div className="d-none d-md-block">
@@ -62,14 +62,16 @@ const Header = () => {
               </div> */}
               <div className="searchbar">
       
-      <IoSearch className="search-icon" />
+      <IoSearch className="search-icon"  />
 
         <input type="text" id="Search" className="form-control ps-5 bg-transparent  search-input" placeholder="Search" />
         </div>
             </div>
           </div>
         </header>
-
+<div className="home-page">
+  
+</div>
   
         <Carousel />
 
