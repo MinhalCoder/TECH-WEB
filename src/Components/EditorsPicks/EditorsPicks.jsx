@@ -6,7 +6,7 @@ const EditorsPicks = () => {
   return (
 
     <>
-     <div className="editorspicks-posts">
+     <div className="editorspicks-posts ">
                 <div className="editorspicks-post-container">
                 <h2 className="editorspicks-main-heading mt-5">Editors Picks</h2>
                 <div className="editors-content mt-4">

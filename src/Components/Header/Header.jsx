@@ -82,17 +82,21 @@ const Header = () => {
 
 
       <div className="container frame-container py-5">
-      <Circle/>
 
         <div className="row">
 
           <div className="col-6">
+
           <LatestPosts/>
+          
           <Categories/>
           
 
           </div>
+          
           <div className="col-6 ">
+          <Circle/>
+
           <EditorsPicks/>
           <AboutUs/>
           <FollowUs/>

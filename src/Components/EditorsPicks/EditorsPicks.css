@@ -8,7 +8,9 @@
     background-clip: text;
   }
 
-  
+.editorspicks-posts{
+  margin-top: 6em;
+}  
 
   .editors-content{
     width: 400px;
