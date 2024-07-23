@@ -92,7 +92,7 @@ const Header = () => {
           
 
           </div>
-          <div className="col-6">
+          <div className="col-6 ">
           <EditorsPicks/>
           <AboutUs/>
           <FollowUs/>

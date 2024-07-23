@@ -65,7 +65,7 @@ body.dark-mode .frame-container {
 .line {
     position: absolute;
     top: 0;
-    height: 1.5%;
+    height: 1.45%;
     width: 1px;
     background-color:  rgba(255, 251, 251, 0.19);
   }
