@@ -62,21 +62,21 @@ body.dark-mode .frame-container {
 }
   
   
-.line {
+.header3-line {
     position: absolute;
     top: 0;
-    height: 1.42%;
+    height: 1.74%;
     width: 1px;
     background-color:  rgba(255, 251, 251, 0.19);
   }
   
-  .line.left {
+  .header3-line.left {
     left: 1;
     margin-left: 7%;
 
   }
   
-  .line.right {
+  .header3-line.right {
     right: 1;
     margin-left: 38.5%;
   }

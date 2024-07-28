@@ -1,0 +1,35 @@
+
+.card {
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    max-width: 400px;
+    height: 250px;
+    padding: 35px;
+   color: #B2B4C0;
+    /* border: 1px solid rgba(255, 255, 255, .25); */
+    border-radius: 10px;
+    background-color:#11032ea2;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  
+  }
+  .author-info{
+    margin-left: 2em;
+    margin-top: 1%;
+  }
+  
+  .card-footer {
+    font-size: 0.65em;
+    color: #fff;
+  }
+  
+  .aboutUsMain-name{
+    font-weight: light;
+    font-size: small;
+  }
+  
+  .aboutUsMain-company{
+    color: #B2B4C0;
+  }

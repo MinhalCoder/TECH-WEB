@@ -1,0 +1,89 @@
+.aboutUsMain{
+    margin-top: 10em;
+}
+
+
+.aboutUs-Stroke{
+    color: #ffffff;
+    -webkit-text-fill-color: transparent; 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffffff;
+    font-size: 150px;
+
+    font-weight: 700;
+    font-family: "Poppins";
+  }
+  .aboutUsMain-heading{
+    font-size: 150px;
+
+    font-weight: 700;
+    font-family: "Poppins";
+  
+    background: linear-gradient(180deg, #ffffff 0%, #fefefe 0.01%, #999999 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .aboutUsMain-content-container{
+    margin-top: 15em;
+  }
+
+  .aboutUsMain-content{
+    font-weight: 700;
+    font-family: "Poppins";
+    font-size: larger; 
+    word-spacing: 4px;
+    background: linear-gradient(180deg, #ffffff 0%, #fefefe 0.01%, #999999 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    width: 80%;
+    line-height: 2.5;
+  }
+
+  .aboutUsMain-img{
+    margin-top: 2em;
+  }
+
+  .aboutUsMain-contact-title h1{
+    font-size: 80px;
+    font-weight: 700;
+    font-family: "Poppins";
+    background: linear-gradient(180deg, #ffffff 0%, #fefefe 0.01%, #999999 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .aboutUsMain-contact-title h3{
+    margin-top: 4em;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Poppins";
+    background: linear-gradient(180deg, #ffffff 0%, #fefefe 0.01%, #999999 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+.marquee-container{
+  /* background-image: url("/TECH-WEB/public/assets/Images/frame3.png");
+  background-repeat: no-repeat;
+  background-position: contain; */
+  width: 95%;
+
+}
+
+.Marquee{
+  width: 93%;
+  margin-bottom: 2em;
+  margin-top: 4em;
+
+}
+.Marquee2{
+  width: 93%;
+  margin-bottom: 12em;
+
+
+}
+

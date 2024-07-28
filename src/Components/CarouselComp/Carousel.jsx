@@ -1,7 +1,15 @@
 import React from 'react';
-import CarouselSection from '../CarouselSection/CarouselSection';
+import CarouselSection from '../CarouselSection/CarouselSection.jsx';
 import './Carousel.css';
-import CircleSmall from '../CircleSmall/CircleSmall';
+import CircleSmall from '../CircleSmall/CircleSmall.jsx';
+import LatestPosts from "../LatestPosts/LatestPosts.jsx";
+import Categories from "../Categories/Categories.jsx";
+import EditorsPicks from "../EditorsPicks/EditorsPicks.jsx";
+import AboutUs from "../AboutUs/AboutUs.jsx";
+import FollowUs from "../FollowUs/FollowUs.jsx";
+import Trending from "../Trending/Trending.jsx";
+import Footer from "../Footer/Footer.jsx";
+import Circle from "../Circle/Circle.jsx";
 
 const Carousel = () => {
   return (
@@ -44,6 +52,36 @@ const Carousel = () => {
         </div>
       </div>
        <img className='carousel-bottom-frame' src="assets/Images/frame2.png" alt="" />
+
+
+
+       
+<div className="container frame-container py-5">
+
+<div className="row">
+
+  <div className="col-6">
+
+  <LatestPosts/>
+  
+  <Categories/>
+  
+
+  </div>
+  
+  <div className="col-6 ">
+  <Circle/>
+
+  <EditorsPicks/>
+  <AboutUs/>
+  <FollowUs/>
+  <Trending/>
+  
+
+
+  </div>
+</div>
+</div>
     </>
   );
 };

@@ -1,16 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "./Header.css";
+import "./Header3.css";
 import { IoSearch } from "react-icons/io5";
-import LatestPosts from "../LatestPosts/LatestPosts.jsx";
-import Categories from "../Categories/Categories.jsx";
-import EditorsPicks from "../EditorsPicks/EditorsPicks.jsx";
-import AboutUs from "../AboutUs/AboutUs.jsx";
-import FollowUs from "../FollowUs/FollowUs.jsx";
-import Trending from "../Trending/Trending.jsx";
-import Footer from "../Footer/Footer.jsx";
-import Circle from "../Circle/Circle.jsx";
-import CircleSmall from "../CircleSmall/CircleSmall.jsx";
 import { Link } from "react-router-dom";
 
 
@@ -52,8 +43,8 @@ const Header = () => {
                     </li>
                   </ul>
                   {/* Lines on the left and right */}
-                  <div className="line left"></div>
-                  <div className="line right"></div>
+                  <div className="header3-line left"></div>
+                  <div className="header3-line right"></div>
                 </nav>
               </div>
               {/* <div className="searchbar "> 

@@ -1,4 +1,4 @@
-.header {
+.header2 {
     border-bottom: 1px solid rgba(255, 251, 251, 0.19);
     z-index: 1;
   }
@@ -62,21 +62,21 @@ body.dark-mode .frame-container {
 }
   
   
-.line {
+.line2 {
     position: absolute;
     top: 0;
-    height: 1.42%;
+    height: 1.48%;
     width: 1px;
     background-color:  rgba(255, 251, 251, 0.19);
   }
   
-  .line.left {
+  .line-left {
     left: 1;
     margin-left: 7%;
 
   }
   
-  .line.right {
+  .line-right {
     right: 1;
     margin-left: 38.5%;
   }

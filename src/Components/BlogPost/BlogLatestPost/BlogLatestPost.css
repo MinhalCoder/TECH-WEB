@@ -1,0 +1,123 @@
+.blog-latestpost-main-heading {
+    font-size: 50px;
+  
+    font-weight: 700;
+    font-family: "Poppins";
+  
+    background: linear-gradient(180deg, #ffffff 0%, #fefefe 0.01%, #999999 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  
+  }
+  .blog-latestposts{
+    width: 100%;
+    margin-bottom: 7em;
+  }
+  
+  .heading-container{
+      width: 100%;
+      margin-top: 3em;
+  }
+  .blog-latestpost-right-arrow-icon{
+      margin-left: 6.2em;
+  }
+  
+  .blog-latestpost-posts-container{
+      width: 100%;
+  }
+  
+  .blog-latestpost-title-heading{
+      color: white;
+ 
+  }
+  
+  .blog-latestpost-img-main{
+    width: 90%;
+      box-shadow: 0px 10px 10px -10px #000000; 
+  
+  }
+  
+  
+  .blog-latestpost-author-sec {
+      display: flex;
+      align-items: center; 
+      gap: 10px; 
+      margin-bottom: 3em;
+  }
+  
+  .author-info {
+      display: block;
+  }
+  .author-info-date {
+  color: #CBCBE8;
+  font-size: smaller;
+  width: 200px;
+  
+  }
+  
+  .author-info p {
+    letter-spacing: 1px;
+      margin: 0; 
+  }
+  .blog-latestpost-arrow-icon{
+      margin-left: 42em;
+  }
+  
+  .blog-latestpost-post1  {
+      background-image: url(/assets/Images/Rectangle-bg.png);
+      border-radius: 15px;
+      padding-left: 18px;
+      padding-right: 18px;
+      padding-top: 10px;
+      display: block;
+      margin-right: 10px;
+      box-shadow: 0px 10px 10px -10px #000000; 
+   
+  }
+  .blog-latestpost-post2 {
+      background-image: url(/assets/Images/Rectangle-bg.png);
+      border-radius: 15px;
+      padding-left: 18px;
+      padding-right: 18px;
+      padding-top: 10px;
+      display: block;
+      margin-right: 10px;
+      box-shadow: 0px 10px 10px -10px #000000;  
+  }
+  
+  
+  
+  
+  
+  .blog-latestpost1-title-heading{
+      color: white;
+      width: 100%;
+      margin-bottom: 0;
+  }
+  
+  .blog-latestpost1-author-info-date {
+      color: #CBCBE8;
+      font-size:10px;
+  
+      }
+      
+      .blog-latestpost1-author {
+          margin: 0; 
+          font-size: 14px;
+  
+      }
+      .blog-latestpost1-arrow-icon{
+          margin-left: 17em;
+      }
+     
+  
+      
+  .blog-latestpost-container{
+      width: 90%;
+  
+  }
+  
+  
+  
+  
