@@ -1,11 +1,17 @@
 import React from 'react'
 import './Footer.css'
 import Circle from '../Circle/Circle'
+import useIntersectionObserver from '../useIntersectionObserver ';
 
 const Footer = () => {
+  const elementRef = useIntersectionObserver((element) => {
+    element.classList.add('fade-in-up-visible');
+  }, {
+    threshold: 0.1,
+  });
   return (
 <>
-    <footer>
+    <footer className='fade-in-up' ref={elementRef}>
       <Circle/>
       <div className="footer-container d-flex justify-content-between mt-5  text-white"> 
         <div className="footer-left">

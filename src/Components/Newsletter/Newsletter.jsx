@@ -1,11 +1,17 @@
 import React from 'react'
 import './Newsletter.css'
+import useIntersectionObserver from '../useIntersectionObserver ';
 
 
 const Newsletter = () => {
+  const elementRef = useIntersectionObserver((element) => {
+    element.classList.add('fade-in-up-visible');
+  }, {
+    threshold: 0.1,
+  });
   return (
 <>
-   <div className="newsletter  d-flex">
+   <div className="newsletter  d-flex fade-in-up" ref={elementRef}>
     <div className="col-6">
         <img className='mx-5  animated-image' src="assets/Images/newsletter.png" alt="" />
     </div>

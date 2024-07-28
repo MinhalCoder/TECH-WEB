@@ -11,10 +11,10 @@ import Carousel from '../../Components/CarouselComp/Carousel'
 const HomePage = () => {
   return (
 <>
-<div className="home-page">
+<div className="home-page  ">
 <Header/>
 <Carousel/>
-  <Newsletter/>
+  <Newsletter className="" />
   <Footer/>
 </div>
  

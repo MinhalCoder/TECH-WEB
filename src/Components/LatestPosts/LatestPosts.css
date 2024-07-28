@@ -1,27 +1,28 @@
 .latestpost-main-heading {
-  font-size: 50px;
-
-  font-weight: 700;
-  font-family: "Poppins";
-
-  background: linear-gradient(180deg, #ffffff 0%, #fefefe 0.01%, #999999 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-
-}
-
-.heading-container{
-    width: 450px;
-    margin-top: 3em;
-}
-.latestpost-right-arrow-icon{
-    margin-left: 6.2em;
-}
-
-.latestpost-posts-container{
-    width: 400px;
-}
+    font-size: 47px;
+    font-weight: 700;
+    font-family: "Poppins";
+    background: linear-gradient(180deg, #ffffff 0%, #fefefe 0.01%, #999999 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .latestposts-heading-container {
+      width: 450px;
+      margin-top: 3em;
+      display: flex;
+      align-items: center;
+  }
+  
+  .latestpost-right-arrow-icon {
+      margin-left: 7.5em;
+  }
+  
+  .latestpost-posts-container {
+      width: 400px;
+  }
+  
 
 .latestpost-title-heading{
     color: white;

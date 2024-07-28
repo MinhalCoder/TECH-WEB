@@ -1,25 +1,34 @@
-import React from 'react'
 import { BsArrowRightCircleFill } from "react-icons/bs";
 import "./LatestPosts.css";
+import React, { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import EditorsPicks from '../EditorsPicks/EditorsPicks';
-import AboutUs from '../AboutUs/AboutUs';
+import useIntersectionObserver from "../useIntersectionObserver ";
+
 
 const LatestPosts = () => {
+
+    const elementRef = useIntersectionObserver((element) => {
+        element.classList.add('fade-in-up-visible');
+      }, {
+        threshold: 0.1,
+      });
   return (
+    
 <>
 
-            <div className="container  ">
+            <div className="container fade-in-up "  ref={elementRef} >
                 <div className="row">
                     <div className="col-6">
-                        <div className="heading-container d-flex ">
-                        <h1 className="latestpost-main-heading">Latest Posts</h1>
-            <BsArrowRightCircleFill className="latestpost-right-arrow-icon   mt-3" color="white" size="2em" />
-                        </div>
+                    <div className="latestposts-heading-container d-flex align-items-center">
+    <h1 className="latestpost-main-heading">Latest Posts</h1>
+    <BsArrowRightCircleFill className="latestpost-right-arrow-icon" color="white" size="2em" />
+</div>
+
 
                         <div className="latestposts mt-5">
                             <div className="latestpost-img-main">
                                 <img  src="assets/Images/img1.png" alt="" width={450}/>
+
                             </div>
                             <div className="latestpost-title">
                                 <p className="latestpost-title-heading mt-4 fs-3 fw-light">Lorem ipsum dolor sit amet consectetur adipiscing... </p>

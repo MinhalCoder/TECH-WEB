@@ -4,14 +4,21 @@ import "./Trending.css";
 import { IoSearch } from "react-icons/io5";
 import Circle from '../Circle/Circle';
 import CircleSmall from '../CircleSmall/CircleSmall';
+import useIntersectionObserver from '../useIntersectionObserver ';
 
 
 
 const Trending = () => {
+  const elementRef = useIntersectionObserver((element) => {
+    element.classList.add('fade-in-up-visible');
+  }, {
+    threshold: 0.2,
+  });
   return (
 
 <>
-<div className="trending-heading-container d-flex  ">
+   <div className="fade-in-up" ref={elementRef}>
+   <div className="trending-heading-container d-flex  ">
     <h1 className="trending-main-heading">Trending Posts</h1>
 <BsArrowRightCircleFill className="trending-right-arrow-icon   mt-3" color="white" size="2em" />
     </div>
@@ -32,6 +39,9 @@ const Trending = () => {
 
         </div>
     </div>
+
+   </div>
+
 
     <CircleSmall/>
 

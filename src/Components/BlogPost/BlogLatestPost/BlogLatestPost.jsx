@@ -1,11 +1,17 @@
 import React from 'react'
 import { BsArrowRightCircleFill } from "react-icons/bs";
 import './BlogLatestPost.css'
+import useIntersectionObserver from '../../useIntersectionObserver ';
 
 
 const BlogLatestPost = () => {
+    const elementRef = useIntersectionObserver((element) => {
+        element.classList.add('fade-in-up-visible');
+      }, {
+        threshold: 0.1,
+      });
   return (
-   <div className="container">
+   <div className="container fade-in-up" ref={elementRef}>
     <div className="row">
         <div className="col">
         <div className="heading-container d-flex ">

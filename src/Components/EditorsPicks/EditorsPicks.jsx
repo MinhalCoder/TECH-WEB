@@ -1,12 +1,18 @@
 import React from 'react'
 import './EditorsPicks.css'
 import AboutUs from '../AboutUs/AboutUs'
+import useIntersectionObserver from '../useIntersectionObserver ';
 
 const EditorsPicks = () => {
+    const elementRef = useIntersectionObserver((element) => {
+        element.classList.add('fade-in-up-visible');
+      }, {
+        threshold: 0.3,
+      });
   return (
 
     <>
-     <div className="editorspicks-posts ">
+     <div className="editorspicks-posts fade-in-up" ref={elementRef}>
                 <div className="editorspicks-post-container">
                 <h2 className="editorspicks-main-heading mt-5">Editors Picks</h2>
                 <div className="editors-content mt-4">

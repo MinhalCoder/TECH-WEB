@@ -1,11 +1,18 @@
 import React from 'react'
 import { BsArrowRightCircleFill } from "react-icons/bs";
 import "./Categories.css";
+import useIntersectionObserver from '../useIntersectionObserver ';
 
 const Categories = () => {
+    const elementRef = useIntersectionObserver((element) => {
+        element.classList.add('fade-in-up-visible');
+      }, {
+        threshold: 0.1,
+      });
   return (
    <>
-    <div className="categories-heading-container mx-3 d-flex ">
+   <div className="fade-in-up" ref={elementRef}>
+   <div className="categories-heading-container mx-3 d-flex ">
     <h1 className="Categories-main-heading mb-lg-5">Categories</h1>
 <BsArrowRightCircleFill className="categories-right-arrow-icon   mt-3" color="white" size="2em" />
     </div>
@@ -118,6 +125,8 @@ const Categories = () => {
                 </div>
             </div>
             </div>
+   </div>
+  
             
    </>  )
 }

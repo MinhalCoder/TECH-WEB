@@ -2,11 +2,18 @@ import React from 'react'
 import './AboutPageMain.css'
 import Marquee from "react-fast-marquee";
 import Card from './Card/Card';
+import useIntersectionObserver from '../useIntersectionObserver ';
 
 const AboutPageMain = () => {
+  const elementRef = useIntersectionObserver((element) => {
+    element.classList.add('fade-in-up-visible');
+  }, {
+    threshold: 0.1,
+  });
   return (
     <>
-       <div className="container d-flex justify-content-center align-items-center">
+    <div className="fade-in-up" ref={elementRef}>
+    <div className="container d-flex justify-content-center align-items-center " >
         <div className="row">
             <div className="col">
                 <div className="aboutUsMain d-flex justify-content-center align-items-center ">
@@ -78,6 +85,8 @@ const AboutPageMain = () => {
             </div>
         </div>
       </div>
+    </div>
+   
     </>
  
     

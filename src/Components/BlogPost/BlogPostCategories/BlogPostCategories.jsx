@@ -2,11 +2,17 @@ import React from 'react'
 import './BlogPostCategories.css'
 import FollowUs from '../../FollowUs/FollowUs'
 import { IoSearch } from "react-icons/io5";
+import useIntersectionObserver from '../../useIntersectionObserver ';
 
 const BlogPostCategories = () => {
+    const elementRef = useIntersectionObserver((element) => {
+        element.classList.add('fade-in-up-visible');
+      }, {
+        threshold: 0.3,
+      });
   return (
 <>
-   <div className="container blogPostCategories-container">
+   <div className="container blogPostCategories-container fade-in-up" ref={elementRef}>
     <div className="row">
         <div className="col">
         <div className="blogPostCategories-heading-container mx-3 d-flex ">

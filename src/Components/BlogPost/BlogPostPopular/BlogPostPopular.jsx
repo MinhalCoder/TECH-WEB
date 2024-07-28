@@ -2,11 +2,17 @@ import React from 'react'
 import { BsArrowRightCircleFill } from "react-icons/bs";
 import './BlogPostPopular.css'
 import BlogPostCategories from '../BlogPostCategories/BlogPostCategories';
+import useIntersectionObserver from '../../useIntersectionObserver ';
 
 const BlogPostPopular = () => {
+    const elementRef = useIntersectionObserver((element) => {
+        element.classList.add('fade-in-up-visible');
+      }, {
+        threshold: 0.1,
+      });
   return (
 <>
-   <div className="container mt-5  ">
+   <div className="container mt-5  fade-in-up " ref={elementRef} >
     <div className="row d-flex align-items-center justify-content-between">
         <div className="col-6">
         <div className="blogPostPoular-heading-container d-flex ">

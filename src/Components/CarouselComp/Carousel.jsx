@@ -10,13 +10,19 @@ import FollowUs from "../FollowUs/FollowUs.jsx";
 import Trending from "../Trending/Trending.jsx";
 import Footer from "../Footer/Footer.jsx";
 import Circle from "../Circle/Circle.jsx";
+import useIntersectionObserver from '../useIntersectionObserver .jsx';
 
 const Carousel = () => {
+  const elementRef = useIntersectionObserver((element) => {
+    element.classList.add('fade-in-up-visible');
+  }, {
+    threshold: 0.1,
+  });
   return (
     <>
           <CircleSmall/>
 
-      <div className="container Carousel ">
+      <div ref={elementRef} className="container Carousel fade-in-up ">
 
         <div className="row align-items-center">
           <div className="col-md-6">
