@@ -17,8 +17,8 @@ const AboutPageMain = () => {
         <div className="row">
             <div className="col">
                 <div className="aboutUsMain d-flex justify-content-center align-items-center ">
-                <h1 className='aboutUsMain-heading' >ABOUT </h1>
-                <h1 className='aboutUs-Stroke mx-5' >US</h1>
+                <h1 className='aboutUsMain-heading' >About </h1>
+                <h1 className='aboutUs-Stroke mx-5' >Us</h1>
                 </div>
                
             </div>

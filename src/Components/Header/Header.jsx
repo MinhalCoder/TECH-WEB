@@ -12,10 +12,40 @@ import Footer from "../Footer/Footer.jsx";
 import Circle from "../Circle/Circle.jsx";
 import CircleSmall from "../CircleSmall/CircleSmall.jsx";
 import { Link } from "react-router-dom";
-
+import { useLocation } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import NavItem from "../../NavItem.jsx";
 
 
 const Header = () => {
+  const [activeLink, setActiveLink] = useState('');
+  const location = useLocation();
+
+  useEffect(() => {
+    switch (location.pathname) {
+      case '/':
+        setActiveLink('Home');
+        break;
+      case '/BlogPostPage':
+        setActiveLink('Posts');
+        break;
+      case '/aboutus':
+        setActiveLink('About us');
+        break;
+      case '/contactus':
+        setActiveLink('Contact');
+        break;
+      default:
+        setActiveLink('');
+    }
+  }, [location.pathname]);
+
+  const navItems = [
+    { to: '/', label: 'Home' },
+    { to: '/BlogPostPage', label: 'Posts' },
+    { to: '/aboutus', label: 'About us' },
+    { to: '/contactus', label: 'Contact' },
+  ];
   return (
     <>
       <div className="container-fluid frame w-100">
@@ -28,33 +58,20 @@ const Header = () => {
               </div>
 
               <div className="d-none d-md-block">
-                <nav aria-label="Global  ">
-                  <ul className="nav">
-                    <li className="nav-item ">
-                      <a className="nav-link font-weight-semibold text-white home" href="#">
-                        Home
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <Link to={"/BlogPostPage"} className="nav-link font-weight-semibold text-white" href="#">
-                        Posts
-                      </Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link  to={"/aboutus"} className="nav-link font-weight-semibold text-white" href="#">
-                        About us
-                      </Link>
-                    </li>
-                    <li className="nav-item contact">
-                      <Link to={"/contactus"} className="nav-link font-weight-semibold text-white" href="#">
-                        Contact
-                      </Link>
-                    </li>
-                  </ul>
-                  {/* Lines on the left and right */}
-                  <div className="line left"></div>
-                  <div className="line right"></div>
-                </nav>
+              <nav aria-label="Global">
+      <ul className="nav">
+        {navItems.map((item) => (
+          <NavItem
+            key={item.label}
+            to={item.to}
+            label={item.label}
+            activeLink={activeLink}
+            setActiveLink={setActiveLink}
+          />
+        ))}
+      </ul>
+     
+    </nav>
               </div>
               {/* <div className="searchbar "> 
               <IoSearch className="search-icon" />

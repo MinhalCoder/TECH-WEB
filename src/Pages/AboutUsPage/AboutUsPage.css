@@ -5,3 +5,22 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+.about-line {
+    position: absolute;
+    top: 0;
+    height: 1.76%;
+    width: 1px;
+    background-color:  rgba(255, 251, 251, 0.19);
+  }
+  
+  .about-line.left {
+    left: 1;
+    margin-left: 30%;
+  
+  }
+  
+  .about-line.right {
+    right: 1;
+    margin-left: 63%;
+  }
