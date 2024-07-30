@@ -1,0 +1,46 @@
+
+.SinglePostHeroHeading{
+    width: 150%;
+    height: 70%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 1.5em;
+    text-transform: capitalize;
+    background: linear-gradient(180deg, #FFFFFF 0%, #FEFEFE 0.01%, #999999 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 2em;
+  
+      }
+
+
+      .SignlePostHero-author-sec {
+        display: flex;
+        align-items: center; 
+        gap: 10px; 
+        margin-top: 0;
+    }
+    
+    .SignlePostHero-author-info {
+        display: block;
+    }
+    .SignlePostHero-author-info-date {
+    color: #CBCBE8;
+    font-size: smaller;
+    width: 200px;
+    
+    }
+    
+    .SignlePostHero-author-info p {
+        margin: 0; 
+    }
+ 
+    
+      

@@ -37,12 +37,13 @@
     background-clip: text;
     width: 80%;
     line-height: 2.5;
+    margin-left: 2em;
   }
   .contact-icon-box{
   
 
-    width: 330px;
-    padding: 10px 70px 10px 0px;
+    width: 320px;
+    padding: 10px 50px 10px 50px;
     box-sizing: border-box;
     /* background: rgba(217, 217, 217, 0.19);
     border: 1px solid rgba(255, 255, 255, 0.4); */
@@ -53,14 +54,16 @@
     }
 
     
-  .contact-searchbar{
-    background-image: url(/assets/Images/searchbar.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: flex;
-    position: relative;
-    
+    .contact-searchbar {
+      background-image: url(/assets/Images/searchbar.png), url(/assets/Images/Rectangle-bg.png);
+      background-size: contain, cover; 
+      background-repeat: no-repeat;
+      background-position: center, center; 
+      display: flex;
+      position: relative; 
+      background-color: transparent;
   }
+  
 
 
 
@@ -68,6 +71,7 @@
     border: none;
     padding: 19px;
     color: #ffffff;
+    
   
 
 }
@@ -85,7 +89,7 @@
   }
 
   .contact-text-area{
-    height: 400px;
+    height: 338px;
     width: 34.5em;
     padding: 19px;
     background-color: transparent;
@@ -117,12 +121,16 @@
     color: #FFFFFF;
     font-family: 'Poppins';
     font-weight: 400;
-
+  margin-top: 2em;
 background: rgba(255, 254, 254, 0.2);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 5px;
 
 
+
+}
+.contact-btn:hover{
+  border: 1px solid grey;
 }
 
 .form-container{

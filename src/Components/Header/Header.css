@@ -63,9 +63,9 @@ body.dark-mode .frame-container {
 
 
   .searchbar{
-    background-image: url(/assets/Images/searchbar.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-image: url(/assets/Images/searchbar.png), url(/assets/Images/Rectangle-bg.png);
+    background-size: contain, cover; 
+      background-repeat: no-repeat;
     display: flex;
    width: 30%;
    margin-left: 3em;

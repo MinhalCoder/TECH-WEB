@@ -61,6 +61,10 @@ border-radius: 5px;
 
   }
 
+  .btn-1:hover{
+    border: 1px solid grey;
+  }
+
   body.light-mode .carousel-bottom-frame{
   margin-top: -2%;
   background-image: url('/assets/Images/Frame2.png'), url('/assets//Images/Frame2.png');

@@ -11,7 +11,7 @@
   }
 
   .aboutus-right-arrow-icon{
-    margin-left: 7em;
+    margin-left: 8.5em;
 }
 
 .aboutus-heading-container{
@@ -56,4 +56,8 @@
     border-radius: 5px;
     
     
+}
+
+.aboutus-btn:hover{
+    border: 1px solid grey;
 }

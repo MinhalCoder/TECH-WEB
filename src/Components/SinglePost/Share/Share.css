@@ -1,0 +1,25 @@
+.share-icon-box{
+  
+
+    width: 330px;
+    padding: 20px 20px 10px 20px;
+    box-sizing: border-box;
+    background: rgba(217, 217, 217, 0.19);
+    border-radius: 10px;
+    
+    
+    
+    }
+    
+    .share-main-heading{
+            font-size: 50px;
+          
+            font-weight: 700;
+            font-family: "Poppins";
+          
+            background: linear-gradient(180deg, #ffffff 0%, #fefefe 0.01%, #999999 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+          
+    }

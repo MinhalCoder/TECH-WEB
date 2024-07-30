@@ -101,11 +101,11 @@ const ContactUs = () => {
         <div className="col-4">
         <p className='contactUs-content'>We’d Love To Hear From you! Whether You Have a Question, Feedback, Or a Collaboration Idea, Feel Free To Reach Out To Us...</p>
         <div className="contact-icon-box d-flex justify-content-between mt-2">
-        <a href=""><img src="assets/Images/insta.png" alt="" /> </a>
-        <a href=""><img src="assets/Images/X.png" alt="" /></a>
-        <a href=""><img src="assets/Images/web.png" alt="" /></a>
-        <a href=""><img src="assets/Images/linkedin.png" alt="" /></a>
-        <a href=""><img src="assets/Images/fb.png" alt="" /></a>
+        <a href="#"><img src="assets/Images/insta.png" width={40} alt="" /> </a>
+        <a href="#"><img src="assets/Images/X.png"width={40}  alt="" /></a>
+        <a href="#"><img src="assets/Images/web.png" width={40}  alt="" /></a>
+        <a href="#"><img src="assets/Images/linkedin.png" width={40}  alt="" /></a>
+        <a href="#"><img src="assets/Images/fb.png" width={40}  alt="" /></a>
 
     </div>
     <CircleSmall/>
@@ -121,7 +121,7 @@ const ContactUs = () => {
               </div>
 
               <div className="text-area">
-                <textarea className="contact-text-area mt-3" placeholder="Enter Your Message..." ></textarea>
+                <textarea className="contact-text-area  mt-3" placeholder="Enter Your Message..." ></textarea>
                 <a href="#"  className="btn contact-btn" > Submit  </a>
 
               </div>

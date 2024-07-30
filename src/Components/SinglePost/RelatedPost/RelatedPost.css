@@ -1,0 +1,60 @@
+.relatedpost-main-heading{
+    font-size: 40px;
+  
+    font-weight: 700;
+    font-family: "Poppins";
+    margin-top: 2em;
+    background: linear-gradient(180deg, #ffffff 0%, #fefefe 0.01%, #999999 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  
+}
+
+
+.relatedpost-post1  {
+    background-image: url(/assets/Images/Rectangle-bg.png);
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-right: 0px;
+    padding-top: 10px;
+    display: block;
+    margin-right: 10px;
+    box-shadow: 0px 10px 10px -10px #000000; 
+ 
+}
+.relatedpost-post2 {
+    background-image: url(/assets/Images/Rectangle-bg.png);
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-right: 0px;
+    padding-top: 10px;
+    display: block;
+    /* margin-right: 10px; */
+    box-shadow: 0px 10px 10px -10px #000000;  
+}
+
+
+.relatedpost1-title-heading{
+    color: white;
+    width: 143px;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.relatedpost1-author-info-date {
+    color: #CBCBE8;
+    font-size:6px;
+
+    }
+    
+    .relatedpost1-author {
+        margin: 0; 
+        font-size: 7px;
+        width: 60px;
+
+    }
+    .relatedpost1-arrow-icon{
+        margin-left: .4em;
+    }
+   

@@ -11,7 +11,7 @@ const Card = () => {
   <div class="card-footer d-flex ">
    <img src="assets/Images/author2.png" alt="" />
    <div className="author-info">
-    <p className='aboutUsMain-name'>Sarah Kline</p>
+    <p className='aboutUsMain-name'>Richard Adams</p>
     <p className='aboutUsMain-company'>Ops Director, RetailPro Solutions</p>
    </div>
   </div>

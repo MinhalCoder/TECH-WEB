@@ -17,7 +17,7 @@ const BlogPostPopular = () => {
         <div className="col-6">
         <div className="blogPostPoular-heading-container d-flex ">
                         <h2 className="blogPostPopular-main-heading ">Popular Posts</h2>
-            <BsArrowRightCircleFill className="latestpost-right-arrow-icon   mt-3" color="white" size="2em" />
+            <BsArrowRightCircleFill className="blogPopular-right-arrow-icon   mt-3" color="white" size="2em" />
                         </div>
 
                         <div className="blogPostPopular mt-5">

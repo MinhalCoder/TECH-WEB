@@ -10,7 +10,7 @@
   }
 
   .trending-right-arrow-icon{
-    margin-left: 3em;
+    margin-left: 6em;
 }
 
 .trending-heading-container{
@@ -38,6 +38,10 @@ border-radius: 5px;
 
 }
 
+.trending-btn:hover{
+  border :1px solid grey;
+}
+
 .trending-post{
     background-image: url(/assets/Images/Rectangle-bg.png);
     background-size: 400px;
@@ -46,11 +50,10 @@ border-radius: 5px;
 }
 
 .search2-bar{
-    background-image: url(/assets/Images/searchbar.png);
-    background-size: contain;
+  background-image: url(/assets/Images/searchbar.png), url(/assets/Images/Rectangle-bg.png);
+  background-size: contain, 400px; 
     background-repeat: no-repeat;
     display: flex;
-   
     position: relative;
   }
 
@@ -72,6 +75,8 @@ border-radius: 5px;
     outline: none ;
     border: none;
     box-shadow: none ;
+    color: white;
+    font-weight: 300;
   }
 
   .search2-icon{

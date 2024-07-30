@@ -1,0 +1,50 @@
+
+
+.singlePostCategories-main-heading {
+    font-size: 47px;
+  
+    font-weight: 700;
+    font-family: "Poppins";
+    margin-top: 3em;
+    background: linear-gradient(180deg, #ffffff 0%, #fefefe 0.01%, #999999 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+ 
+
+
+.singlePostCategory-content{
+    background-image: url(/assets/Images/Rectangle-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    padding: 1em 2em 1em 1em;
+}
+
+.singlePostCategory-list{
+    color: #D2D2D2;
+    font-size: 10px;
+}
+.category-img{
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px -10px #000000; 
+
+}
+
+.singlePostCategories-container{
+    width: 200px;
+}
+
+/* .singlePostCategory-content-3{
+    background-image: url(/assets/Images/glow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.singlepost-vector p{
+    font-size: 9px;
+    margin-left: 2%;
+}
+
