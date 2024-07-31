@@ -16,7 +16,7 @@ const LatestPosts = () => {
   return (
     
 <>
-
+<Link className="text-decoration-none" to={"/SinglePostPage"} >
             <div className="container fade-in-up "  ref={elementRef} >
                 <div className="row">
                     <div className="col-6">
@@ -42,10 +42,10 @@ const LatestPosts = () => {
         <p >Leslie Alexander</p>
         <p className='author-info-date'>Ceo / April 22, 2024</p>
     </div>
-    <Link to={"/SinglePostPage"} >
+   
     <img src="assets/Images/arrow-btn.png" className='latestpost-arrow-icon' alt="" width={50} />
 
-    </Link>
+   
 
 </div>
 
@@ -140,7 +140,7 @@ const LatestPosts = () => {
                 </div>
            
             </div>
-     
+            </Link>
 </>
 )
 }

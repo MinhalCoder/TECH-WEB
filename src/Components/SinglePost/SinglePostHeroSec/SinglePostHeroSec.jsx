@@ -4,9 +4,9 @@ import ImageSlider from '../ImageSlider/ImageSlider';
 
 const SinglePostHeroSec = () => {
   return (
-    <div className="container">
+    <div className="container  ">
       <div className="row">
-        <div className="col-4">
+        <div className="col-7">
           <h1 className="SinglePostHeroHeading">
             <span className="d-block">The Key</span>
             <span className="d-block">Elements</span>
@@ -25,7 +25,7 @@ const SinglePostHeroSec = () => {
             <img src="assets/Images/line.png" width={444} alt="" />
           </div>
         </div>
-        <div className="col-8">
+        <div className="col-5">
           <ImageSlider />
         </div>
       </div>

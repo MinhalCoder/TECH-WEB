@@ -1,0 +1,64 @@
+.singlepost-right{
+    padding-left:3em ;
+}
+
+.singlePostContent h1{
+ font-weight: 300;
+ font-family: 'Poppins';
+ line-height: 2;
+
+}
+.singlePostContent p{
+ font-weight: 300;
+ font-family: 'Poppins';
+ line-height: 2;
+
+}
+.singlePostContent ul li{
+ font-weight: 300;
+ font-family: 'Poppins';
+ line-height: 2;
+
+}
+
+.singlePostSearch{
+    margin-left: 2.5em;
+}
+
+
+.singlePostSearch-bar{
+    background-image: url(/assets/Images/searchbar.png);
+    background-size: 280px; 
+      background-repeat: no-repeat;
+      display: flex;
+      position: relative;
+      
+    }
+  
+    /* .search2bar-bg {
+      background-image: url(/assets/Images/Rectangle-bg.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+    } */
+  
+  
+  .singlePostSearch-input{
+      border: none;
+  
+  }
+    .singlePostSearch-input::placeholder{
+      color: #B1B1B1;
+    }
+    .singlePostSearch-input:focus{
+      outline: none ;
+      border: none;
+      box-shadow: none ;
+      color: white;
+      font-weight: 300;
+    }
+  
+    .singlePostSearch-icon{
+      color: #fff;
+      font-size: 2rem;
+      margin: 6px 6px 5px 10px;
+    }

@@ -18,7 +18,7 @@ const CommentSec = () => {
   const [isCommentSectionVisible, setIsCommentSectionVisible] = useState(false);
 
   // Determine if the current route should display the comment section
-  const shouldShowCommentSec = location.pathname === '/BlogPostPage' || location.pathname === '/singlepostpage';
+  const shouldShowCommentSec = location.pathname === '/BlogPostPage' || location.pathname === '/SinglePostPage';
 
   const handleAddComment = () => {
     if (newComment.trim()) {

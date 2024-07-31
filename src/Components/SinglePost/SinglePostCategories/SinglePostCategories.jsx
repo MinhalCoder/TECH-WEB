@@ -58,8 +58,8 @@ const SinglePostCategories = () => {
                         <li>Lorem ip</li>
                        
                     </ul>
-                    <div className="singlepost-vector d-flex   mx-4">
-                        <img src="assets/Images/Vector.png" alt="" width={15} height={15} />
+                    <div className="singlepost-vector d-flex  ">
+                        <img className='singlePost-vector-img' src="assets/Images/Vector.png" alt="" width={15} height={15} />
                         <p  >More on visual... </p>
                     </div>
                 </div>
@@ -101,8 +101,8 @@ const SinglePostCategories = () => {
                         <li>Lorem ip</li>
                        
                     </ul>
-                    <div className="singlepost-vector d-flex   mx-4">
-                        <img src="assets/Images/Vector.png" alt="" width={15} height={15} />
+                    <div className="singlepost-vector d-flex ">
+                        <img className='singlePost-vector-img' src="assets/Images/Vector.png" alt="" width={15} height={15} />
                         <p  >More on visual... </p>
                     </div>
                 </div>

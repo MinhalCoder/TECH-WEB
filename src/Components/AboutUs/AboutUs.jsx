@@ -2,6 +2,7 @@ import React from 'react'
 import { BsArrowRightCircleFill } from "react-icons/bs";
 import "./AboutUs.css";
 import useIntersectionObserver from '../useIntersectionObserver ';
+import { Link } from 'react-router-dom';
 
 const AboutUs = () => {
     const elementRef = useIntersectionObserver((element) => {
@@ -14,7 +15,9 @@ const AboutUs = () => {
     <div className="fade-in-up" ref={elementRef}>
     <div className="aboutus-heading-container d-flex " >
     <h1 className="aboutus-main-heading">About Us</h1>
+    <Link to="/AboutUs" className="text-decoration-none">
 <BsArrowRightCircleFill className="aboutus-right-arrow-icon   mt-3" color="white" size="2em" />
+</Link>   
     </div>
 
     <div className="aboutus   ">

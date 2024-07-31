@@ -74,7 +74,7 @@ const ContactUs = () => {
       rowTitleColor: "white",
       rowContentColor: '#c2c2c2',
       arrowColor: "white",
-    
+      
     };
     
     const config = {
