@@ -21,11 +21,11 @@ const BlogLatestPost = () => {
 
                         <div className="blog-latestposts mt-5">
                             <div className="blog-latestpost-img-main">
-                                <img  src="assets/Images/img1.png" alt="" width={999} height={444} />
+                                <img  src="assets/Images/img1.png" alt=""  height={444} />
                             </div>
                             <div className="blog-latestpost-title">
                                 <p className="blog-latestpost-title-heading mt-4 fs-3 fw-light">Lorem ipsum dolor sit amet consectetur adipiscing... </p>
-                                <img src="assets/Images/line.png" width={999} alt="" />      
+                                <img src="assets/Images/line.png"  alt="" />      
                             </div>
 
                             <div className="blog-latestpost-author-sec d-flex text-white">

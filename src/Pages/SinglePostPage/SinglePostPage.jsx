@@ -1,23 +1,23 @@
-import React from 'react'
-import './SinglePostPage.css'
-import Header from '../../Components/Header/Header'
-import SinglePostHeroSec from '../../Components/SinglePost/SinglePostHeroSec/SinglePostHeroSec'
-import SinglePostContent from '../../Components/SinglePost/SinglePostContent/SinglePostContent'
+import React from 'react';
+import './SinglePostPage.css';
+import Header from '../../Components/Header/Header';
+import SinglePostHeroSec from '../../Components/SinglePost/SinglePostHeroSec/SinglePostHeroSec';
+import SinglePostContent from '../../Components/SinglePost/SinglePostContent/SinglePostContent';
 
 const SinglePostPage = () => {
   return (
-   <>
-   <div className="container singlePostPage">
-    <div className="row">
+    <div className="container-fluid singlePostPage">
+      <div className="row">
         <div className="col">
-        <Header/>
-        <SinglePostHeroSec/>
-        <SinglePostContent/>
+          <Header />
+          <div className="singlePost-line singlePost-left"></div>
+          <div className="singlePost-line singlePost-right"></div>
+          <SinglePostHeroSec />
+          <SinglePostContent />
         </div>
+      </div>
     </div>
-   </div>
-   </>
-)
-}
+  );
+};
 
-export default SinglePostPage
+export default SinglePostPage;

@@ -1,22 +1,8 @@
 .home-page {
-  margin-right: -10%;
   z-index: -1;
   background-image: url('/assets/Images/Frame1.png'), url('/assets/Images/Frame.png');
   background-size: contain;
   background-repeat: no-repeat;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .home-page {
-    padding: 0 0.5rem; /* Adjust padding for smaller screens */
-  }
-}
-
-@media (max-width: 480px) {
-  .home-page {
-    padding: 0 0.25rem; /* Further adjust padding for very small screens */
-  }
 }
 
 
@@ -30,12 +16,40 @@
 
 .line.left {
   left: 1;
-  margin-left: 30%;
+  margin-left: 28.5%;
 
 }
 
 .line.right {
   right: 1;
-  margin-left: 63%;
+  margin-left: 60%;
+}
+
+@media (max-width: 768px) {
+  .home-page {
+    padding: 0 0.5rem;
+  }
+
+  .line.left {
+    margin-left: 20%;
+  }
+
+  .line.right {
+    margin-left: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-page {
+    padding: 0 0.25rem;
+  }
+
+  .line.left {
+    margin-left: 10%;
+  }
+
+  .line.right {
+    margin-left: 40%;
+  }
 }
 

@@ -1,13 +1,15 @@
    .footer-container{
   padding: 2em 5em 2em 5em ;
-  margin-right: 220px;
-  margin-left: 80px;
+  margin-right: 2em;
+  margin-left: 2em;
 }
 
 body.light-mode .footer-container,
 body.theme1-mode .footer-container,
 body.theme2-mode .footer-container{
   background-image: url(/assets/Images/frame2.png), url(/assets/Images/frame2.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .footer-description{

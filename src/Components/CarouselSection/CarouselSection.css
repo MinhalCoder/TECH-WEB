@@ -4,9 +4,9 @@
   
   .custom-indicators {
     position: absolute;
-    top: 32em; /* Change to position where you want */
-    left: 0%;
-    transform: translateX(-50%);
+    top: 540px; /* Change to position where you want */
+    left: 0;
+    transform: translateX(-50px);
     display: flex;
     gap: 10px;
   }

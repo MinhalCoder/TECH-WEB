@@ -1,7 +1,7 @@
-import React from 'react';
-import CarouselSection from '../CarouselSection/CarouselSection.jsx';
-import './Carousel.css';
-import CircleSmall from '../CircleSmall/CircleSmall.jsx';
+import React from "react";
+import CarouselSection from "../CarouselSection/CarouselSection.jsx";
+import "./Carousel.css";
+import CircleSmall from "../CircleSmall/CircleSmall.jsx";
 import LatestPosts from "../LatestPosts/LatestPosts.jsx";
 import Categories from "../Categories/Categories.jsx";
 import EditorsPicks from "../EditorsPicks/EditorsPicks.jsx";
@@ -10,41 +10,34 @@ import FollowUs from "../FollowUs/FollowUs.jsx";
 import Trending from "../Trending/Trending.jsx";
 import Footer from "../Footer/Footer.jsx";
 import Circle from "../Circle/Circle.jsx";
-import useIntersectionObserver from '../useIntersectionObserver .jsx';
+import useIntersectionObserver from "../useIntersectionObserver .jsx";
 
 const Carousel = () => {
-  const elementRef = useIntersectionObserver((element) => {
-    element.classList.add('fade-in-up-visible');
-  }, {
-    threshold: 0.1,
-  });
+  const elementRef = useIntersectionObserver(
+    (element) => {
+      element.classList.add("fade-in-up-visible");
+    },
+    {
+      threshold: 0.1,
+    }
+  );
   return (
     <>
-          <CircleSmall/>
+      <CircleSmall />
 
       <div ref={elementRef} className="container Carousel fade-in-up ">
-
         <div className="row align-items-center">
           <div className="col-md-6">
-
             <div className="carouselContent">
               <h1 className="carouselHeading">
                 <span className="d-block">Grid System For</span>
                 <span className="d-block">Better Design</span>
                 <span className="d-block">User Interface</span>
               </h1>
-              <a
-                href="#"
-                className="btn btn-1   my-4 me-2"
-               
-              >
+              <a href="#" className="btn btn-1   my-4 me-2">
                 Get started
               </a>
-              <a
-                href="#"
-                className="btn  btn-gradient"
-                
-              >
+              <a href="#" className="btn  btn-gradient">
                 Get started
               </a>
             </div>
@@ -54,40 +47,32 @@ const Carousel = () => {
               <CarouselSection />
             </div>
           </div>
-
         </div>
       </div>
-       <img className='carousel-bottom-frame' src="assets/Images/frame2.png" alt="" />
+      <img
+        className="carousel-bottom-frame"
+        src="assets/Images/frame2.png"
+        alt=""
+      />
 
+      <div className="container frame-container py-5">
+        <div className="row">
+          <div className="col-7">
+            <LatestPosts />
 
+            <Categories />
+          </div>
 
-       
-<div className="container frame-container py-5">
+          <div className="col-5 ">
+            <Circle />
 
-<div className="row">
-
-  <div className="col-6">
-
-  <LatestPosts/>
-  
-  <Categories/>
-  
-
-  </div>
-  
-  <div className="col-6 ">
-  <Circle/>
-
-  <EditorsPicks/>
-  <AboutUs/>
-  <FollowUs/>
-  <Trending/>
-  
-
-
-  </div>
-</div>
-</div>
+            <EditorsPicks />
+            <AboutUs />
+            <FollowUs />
+            <Trending />
+          </div>
+        </div>
+      </div>
     </>
   );
 };

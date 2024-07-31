@@ -15,11 +15,11 @@ const BlogPostCategories = () => {
    <div className="container blogPostCategories-container fade-in-up" ref={elementRef}>
     <div className="row">
         <div className="col">
-        <div className="blogPostCategories-heading-container mx-3 d-flex ">
+        <div className="blogPostCategories-heading-container  d-flex ">
     <h3 className="blogPostCategories-main-heading mb-4">Categories</h3>
     </div>
 
-         <div className="blogPostCategories-container mx-2">
+         <div className="blogPostCategories-container ">
             <div className="blogPostCategory-content d-flex mt-2 text-white">
                 <div className="col-6 ">
                     <h5>TECH</h5>
@@ -134,7 +134,7 @@ const BlogPostCategories = () => {
    <FollowUs/>
 
    <h3 className="trending-main-heading mt-4">Search</h3>
-    <div className="search2-bar w-75">
+    <div className="search2-bar ">
       
               <IoSearch className="search2-icon" />
 

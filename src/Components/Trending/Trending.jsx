@@ -46,7 +46,7 @@ const Trending = () => {
     <CircleSmall/>
 
     <h3 className="trending-main-heading mt-4">Search</h3>
-    <div className="search2-bar search2bar-bg w-75">
+    <div className="search2-bar search2bar-bg ">
       
               <IoSearch className="search2-icon" />
 

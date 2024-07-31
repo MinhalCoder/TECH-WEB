@@ -1,7 +1,26 @@
 .singlePostPage {
-    margin-right: 2%;
-    /* z-index: -1;
+    z-index: -1;
     background-image: url('/assets/Images/Frame1.png'), url('/assets/Images/Frame.png');
     background-size: contain;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
+
+  }
+
+  .singlePost-line {
+    position: absolute;
+    top: 0;
+    height: 1.72%;
+    width: 1px;
+    background-color:  rgba(255, 251, 251, 0.19);
+  }
+  
+.singlePost-left {
+    left: 1;
+    margin-left: 28%;
+  
+  }
+  
+  .singlePost-right {
+    right: 1;
+    margin-left: 60%;
   }

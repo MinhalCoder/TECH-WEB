@@ -10,7 +10,7 @@ const BlogHeroSection = () => {
   });
   return (
     <>
-     <div className="container d-flex align-items-center justify-content-center fade-in-up" ref={elementRef}>
+     <div className="container d-flex align-items-center justify-content-between fade-in-up" ref={elementRef}>
         <div className="row">
             <div className="col-6 blog-img-container">
                 <img className="hero-section-img w-100 object-fit-contain" src="assets/Images/img5.png" alt="" />

@@ -98,7 +98,7 @@ const ContactUs = () => {
     </div>
  <div className="container form-container">
     <div className="row">
-        <div className="col-4">
+        <div className="col-5">
         <p className='contactUs-content'>We’d Love To Hear From you! Whether You Have a Question, Feedback, Or a Collaboration Idea, Feel Free To Reach Out To Us...</p>
         <div className="contact-icon-box d-flex justify-content-between mt-2">
         <a href="#"><img src="assets/Images/insta.png" width={40} alt="" /> </a>
@@ -110,13 +110,13 @@ const ContactUs = () => {
     </div>
     <CircleSmall/>
         </div>
-        <div className="col-8">
+        <div className="col-7">
         <form action="">
-        <div className="contact-searchbar w-75 mt-4">
+        <div className="contact-searchbar  mt-4">
                 <input type="text" id="newsletterSearch" className="contact-input form-control ps-4 bg-transparent" placeholder="Enter Your Name..." />
               </div>
 
-              <div className="contact-searchbar w-75 mt-3 ">
+              <div className="contact-searchbar  mt-3 ">
                 <input type="text" id="newsletterSearch" className="contact-input form-control ps-4 bg-transparent" placeholder="Enter Your Email..." />
               </div>
 
@@ -180,10 +180,10 @@ const ContactUs = () => {
 
 
     {/* FAQ */}
-    <div className="conatiner ">
+    <div className="conatiner  ">
         <div className="row">
             <div className="col">
-                <h1 className='faq-heading'>FAQ</h1>
+                <h1 className='faq-heading text-center'>FAQ</h1>
                 <div className="faq-container">
                 <Faq  data={data}
                 styles={styles}

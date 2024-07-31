@@ -42,7 +42,7 @@ const AboutPageMain = () => {
                <img  src="assets/Images/profile-img.png" alt="" />
             </div>
             <div className="col-6">
-            <p className='aboutUsMain-content'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus repudiandae dolores blanditiis quasi nam. Rem, pariatur harum eum excepturi unde praesentium reiciendis recusandae velit asperiores veniam officia voluptates deleniti itaque, officiis accusantium sed aut! Quos ducimus illo tempora sapiente hic officia porro at numquam magni rem enim qui quam, recusandae quas distinctio expedita dolorem tenetur omnis sit nihil? Culpa, deserunt?.</p>
+            <p className='aboutUsMain-content'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus repudiandae dolores blanditiis quasi nam. Rem, pariatur harum eum excepturi unde praesentium reiciendis recusandae velit asperiores veniam officia voluptates deleniti itaque, officiis accusantium sed aut! Quos ducimus illo tempora sapiente hic officia porr expedita dolorem tenetur omnis sit nihil? Culpa, deserunt.</p>
             </div>
             
         </div>

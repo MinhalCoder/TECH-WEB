@@ -20,15 +20,15 @@ const ImageSlider = () => {
     }, []);
 
     const getSlideClass = (index) => {
-        if (index === currentIndex) return 'slide center';
-        if (index === (currentIndex + 1) % images.length) return 'slide bottom-right';
-        if (index === (currentIndex - 1 + images.length) % images.length) return 'slide top-left';
+        if (index === currentIndex) return 'image-slide center';
+        if (index === (currentIndex + 1) % images.length) return 'image-slide bottom-right';
+        if (index === (currentIndex - 1 + images.length) % images.length) return 'image-slide top-left';
         return 'slide hidden';
     };
 
     return (
-        <div className="slider">
-            <div className="slides">
+        <div className="image-slider">
+            <div className="image-slides">
                 {images.map((image, index) => (
                     <div
                         className={getSlideClass(index)}

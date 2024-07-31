@@ -11,12 +11,17 @@ const BlogPostPage = () => {
 <>
 <div className="blogPostPage">
 <Header/>
-{/* Lines on the left and right */}
+
 <div className="blog-line left"></div>
-      <div className="blog-line  right"></div><BlogHeroSection/>
+<div className="blog-line  right"></div>
+
+<div className="container">
+<BlogHeroSection/>
 <BlogLatestPost/>
-  <Newsletter/>
-  <Footer/>
+
+</div>
+<Newsletter/>
+<Footer/>
 </div>
 </>
   )

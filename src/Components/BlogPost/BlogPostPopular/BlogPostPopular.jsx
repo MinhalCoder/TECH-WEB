@@ -14,7 +14,7 @@ const BlogPostPopular = () => {
 <>
    <div className="container mt-5  fade-in-up " ref={elementRef} >
     <div className="row d-flex align-items-center justify-content-between">
-        <div className="col-6">
+        <div className="col-7">
         <div className="blogPostPoular-heading-container d-flex ">
                         <h2 className="blogPostPopular-main-heading ">Popular Posts</h2>
             <BsArrowRightCircleFill className="blogPopular-right-arrow-icon   mt-3" color="white" size="2em" />
@@ -127,7 +127,7 @@ const BlogPostPopular = () => {
         </div>
 
         {/* Categories */}
-        <div className="col-6">
+        <div className="col-5">
          <BlogPostCategories/>
         </div>
     </div>

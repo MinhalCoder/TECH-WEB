@@ -38,12 +38,13 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    width: 80%;
-    line-height: 2.5;
+    width: 100%;
+    line-height: 4;
   }
 
   .aboutUsMain-img{
     margin-top: 2em;
+    width: 100%;
   }
 
   .aboutUsMain-contact-title h1{
@@ -70,18 +71,18 @@
   /* background-image: url("/TECH-WEB/public/assets/Images/frame3.png");
   background-repeat: no-repeat;
   background-position: contain; */
-  width: 95%;
+  width: 100%;
 
 }
 
 .Marquee{
-  width: 93%;
+  width: 100%;
   margin-bottom: 2em;
   margin-top: 4em;
 
 }
 .Marquee2{
-  width: 93%;
+  width: 100%;
   margin-bottom: 12em;
 
 

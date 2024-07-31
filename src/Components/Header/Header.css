@@ -1,6 +1,9 @@
 .header {
     border-bottom: 1px solid rgba(255, 251, 251, 0.19);
     z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
    /* .frame{
@@ -69,16 +72,16 @@ body.dark-mode .frame-container {
     display: flex;
    width: 30%;
    margin-left: 3em;
-   margin-right: 3em;
+   /* margin-right: 3em; */
     position: relative;
   }
 
-.header-items{
+/* .header-items{
 
   margin-right: 3.5em;
  
   
-}
+} */
 
 .search-input {
     border: none;

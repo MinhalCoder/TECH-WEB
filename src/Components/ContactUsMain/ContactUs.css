@@ -1,6 +1,5 @@
 .contactUs{
     margin-top: 10em;
-    margin-left: -8em;
 }
 
 
@@ -36,14 +35,13 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     width: 80%;
-    line-height: 2.5;
-    margin-left: 2em;
+    line-height: 3;
   }
   .contact-icon-box{
   
 
     width: 320px;
-    padding: 10px 50px 10px 50px;
+    padding: 10px 50px 10px 10px;
     box-sizing: border-box;
     /* background: rgba(217, 217, 217, 0.19);
     border: 1px solid rgba(255, 255, 255, 0.4); */
@@ -58,7 +56,7 @@
       background-image: url(/assets/Images/searchbar.png), url(/assets/Images/Rectangle-bg.png);
       background-size: contain, cover; 
       background-repeat: no-repeat;
-      background-position: center, center; 
+      background-position:  0,center; 
       display: flex;
       position: relative; 
       background-color: transparent;
@@ -89,8 +87,8 @@
   }
 
   .contact-text-area{
-    height: 338px;
-    width: 34.5em;
+    height: 348px;
+    width: 100%;
     padding: 19px;
     background-color: transparent;
     border: none;
@@ -128,19 +126,19 @@ border-radius: 5px;
 
 
 
+
 }
 .contact-btn:hover{
   border: 1px solid grey;
+  box-shadow:1px 1px 2px white ;
+
 }
 
 .form-container{
     margin-top: 13em;
 }
 
-.contact-title{
 
-    margin-right:16%;
-}
 
 .contact-title h1{
     margin-top: 2em;
@@ -166,19 +164,20 @@ border-radius: 5px;
   .contact-card{
     background-color: #ffffff2c;
     border-radius: 7px;
-    width: 25%;
+    width: 100%;
     padding: 8px;
     margin-top: 3em;
+    box-shadow:1px 1px 4px white ;
+
     
     
   }
   .contact-frame{
  
-   background: url(/TECH-WEB/public/assets/Images/frame4.png),url(/TECH-WEB/public/assets/Images/frame4.png),url(/TECH-WEB/public/assets/Images/frame4.png);
+   background: url(/assets/Images/frame4.png),url(/assets/Images/frame4.png),url(/assets/Images/frame4.png);
   background-repeat: no-repeat;
   background-position: center;
   margin-top: -11%;
-  margin-right: 10em;
   opacity: 0.5;
   }
  
@@ -200,19 +199,20 @@ border-radius: 5px;
   .contactcard-title2{
     font-size: 12px;
     color: #CBCBE8;
-    margin-left: 4em;
+    margin-left: 4.4em;
     margin-bottom: 1%;
 }
 
 
 .faq-container{
- width: 62%;
- margin-left: 12.3em;
+ width: 100%;
  background: #ffffff15;
- padding: 30px;
+box-shadow:1px 1px 4px white ;
+ padding: 80px;
  font-family: 'Poppins';
  border-radius: 16px;
  margin-bottom: 14em;
+
 }
 
 .faq-heading{
@@ -224,6 +224,5 @@ border-radius: 5px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    margin-left: 7em;
     margin-bottom:.5em;
 }

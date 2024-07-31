@@ -1,5 +1,4 @@
 .contactus-page{
-    margin-right: -10%;
     z-index: -1;
     background-image: url('/assets/Images/Frame1.png'), url('/assets/Images/Frame.png');
     background-size: contain;
@@ -16,7 +15,7 @@
   
   .contact-line.left {
     left: 1;
-    margin-left: 30%;
+    margin-left: 28%;
   
   }
   

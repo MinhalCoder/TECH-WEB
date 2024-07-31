@@ -3,6 +3,7 @@ import "./LatestPosts.css";
 import React, { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import useIntersectionObserver from "../useIntersectionObserver ";
+import { Link } from "react-router-dom";
 
 
 const LatestPosts = () => {
@@ -41,7 +42,11 @@ const LatestPosts = () => {
         <p >Leslie Alexander</p>
         <p className='author-info-date'>Ceo / April 22, 2024</p>
     </div>
+    <Link to={"/SinglePostPage"} >
     <img src="assets/Images/arrow-btn.png" className='latestpost-arrow-icon' alt="" width={50} />
+
+    </Link>
+
 </div>
 
          <div className="latestpost-container mt-4 d-flex justify-content-between">

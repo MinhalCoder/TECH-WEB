@@ -1,8 +1,4 @@
-.blogPostCategories-container{
 
-    margin-left: -1em;
-   
-}
 
 .blogPostCategories-main-heading {
     font-size: 47px;
@@ -22,8 +18,8 @@
 .blogPostCategory-content{
     background-image: url(/assets/Images/Rectangle-bg.png);
     background-repeat: no-repeat;
-    background-size: 400px;
-    width: 400px;
+    background-size: cover;
+    /* width: 400px; */
     padding: 1em;
 }
 
@@ -37,9 +33,6 @@
 
 }
 
-.blogPostCategories-container{
-    width: 350px;
-}
 
 /* .blogPostCategory-content-3{
     background-image: url(/assets/Images/glow.png);
