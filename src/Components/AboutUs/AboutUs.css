@@ -62,7 +62,7 @@
     }
   
     .aboutus-right-arrow-icon {
-      margin-left: 4em;
+      margin-left: 2em;
     }
   
     .aboutus-img {
@@ -96,7 +96,7 @@
   
   @media (max-width: 768px) {
     .aboutus-main-heading {
-      font-size: 40px;
+      font-size: 35px;
     }
   
     .aboutus-right-arrow-icon {
@@ -125,7 +125,7 @@
   
   @media (max-width: 576px) {
     .aboutus-main-heading {
-      font-size: 35px;
+      font-size: 30px;
     }
   
     .aboutus-content-heading {

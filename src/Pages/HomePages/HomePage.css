@@ -33,12 +33,8 @@
     padding: 0 0.5rem;
   }
 
-  .line.left {
-    margin-left: 20%;
-  }
-
-  .line.right {
-    margin-left: 50%;
+  .line{
+    display: none;
   }
 }
 
@@ -47,12 +43,10 @@
     padding: 0 0.25rem;
   }
 
-  .line.left {
-    margin-left: 10%;
+  .line{
+    display: none;
   }
 
-  .line.right {
-    margin-left: 40%;
-  }
+ 
 }
 

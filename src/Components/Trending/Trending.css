@@ -74,7 +74,8 @@
 
 @media (max-width: 768px) {
   .trending-main-heading {
-      font-size: 36px;
+      font-size: 32px;
+      margin-top: 7px;
   }
 
   .trending-right-arrow-icon {
@@ -82,7 +83,7 @@
   }
 
   .trending-heading-container {
-      margin-top: 2em;
+      margin-top: 3em;
   }
 
   .trending-post p {
