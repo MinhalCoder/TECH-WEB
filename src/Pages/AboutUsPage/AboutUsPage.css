@@ -3,6 +3,8 @@
     background-image: url('/assets/Images/Frame1.png'), url('/assets/Images/Frame.png');
     background-size: contain;
     background-repeat: no-repeat;
+    overflow: hidden;
+
 }
 
 .about-line {

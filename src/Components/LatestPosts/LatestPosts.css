@@ -6,61 +6,59 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-  }
-  
-  .latestposts-heading-container {
-      width: 450px;
-      margin-top: 3em;
-      display: flex;
-      align-items: center;
-  }
-  
-  .latestpost-right-arrow-icon {
-      margin-left: 7.5em;
-  }
-  
-  .latestpost-posts-container {
-      width: 400px;
-  }
-  
+}
 
-.latestpost-title-heading{
+.latestposts-heading-container {
+    width: 450px;
+    margin-top: 3em;
+    display: flex;
+    align-items: center;
+}
+
+.latestpost-right-arrow-icon {
+    margin-left: 7.5em;
+}
+
+.latestpost-posts-container {
+    width: 400px;
+}
+
+.latestpost-title-heading {
     color: white;
     width: 450px;
 }
 
-.latestpost-img-main{
-    box-shadow: 0px 10px 10px -10px #000000; 
+.latestpost-img-main {
+    box-shadow: 0px 10px 10px -10px #000000;
     width: 450px;
-
 }
-
 
 .latestpost-author-sec {
     display: flex;
-    align-items: center; 
-    gap: 10px; 
+    align-items: center;
+    gap: 10px;
     margin-bottom: 3em;
 }
 
 .author-info {
     display: block;
 }
-.author-info-date {
-color: #CBCBE8;
-font-size: smaller;
-width: 200px;
 
+.author-info-date {
+    color: #CBCBE8;
+    font-size: smaller;
+    width: 200px;
 }
 
 .author-info p {
-    margin: 0; 
+    margin: 0;
 }
-.latestpost-arrow-icon{
+
+.latestpost-arrow-icon {
     margin-left: 5.5em;
 }
 
-.latestpost-post1  {
+.latestpost-post1 {
     background-image: url(/assets/Images/Rectangle-bg.png);
     border-radius: 15px;
     padding-left: 18px;
@@ -68,9 +66,9 @@ width: 200px;
     padding-top: 10px;
     display: block;
     margin-right: 10px;
-    box-shadow: 0px 10px 10px -10px #000000; 
- 
+    box-shadow: 0px 10px 10px -10px #000000;
 }
+
 .latestpost-post2 {
     background-image: url(/assets/Images/Rectangle-bg.png);
     border-radius: 15px;
@@ -79,11 +77,10 @@ width: 200px;
     padding-top: 10px;
     display: block;
     margin-right: 10px;
-    box-shadow: 0px 10px 10px -10px #000000;  
+    box-shadow: 0px 10px 10px -10px #000000;
 }
 
-
-.latestpost1-title-heading{
+.latestpost1-title-heading {
     color: white;
     width: 200px;
     margin-bottom: 0;
@@ -91,26 +88,165 @@ width: 200px;
 
 .latestpost1-author-info-date {
     color: #CBCBE8;
-    font-size:9px;
+    font-size: 9px;
+}
 
-    }
-    
-    .latestpost1-author {
-        margin: 0; 
-        font-size: 10px;
-        width: 80px;
+.latestpost1-author {
+    margin: 0;
+    font-size: 10px;
+    width: 80px;
+}
 
-    }
-    .latestpost1-arrow-icon{
-        margin-left: 1.5em;
-    }
-   
+.latestpost1-arrow-icon {
+    margin-left: 1.5em;
+}
 
-    
-.latestpost-container{
+.latestpost-container {
     width: 400px;
-
 }
 
 
 
+.marquee-container {
+    display: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .latestposts-heading-container {
+        width: 100%;
+        margin-top: 2em;
+    }
+
+    .latestpost-right-arrow-icon {
+        margin-left: 4em;
+    }
+
+    .latestpost-posts-container,
+    .latestpost-title-heading {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .latestpost-main-heading {
+        font-size: 40px; /* Reduced font size for medium screens */
+    }
+
+    .latestposts-heading-container {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 1.5em;
+    }
+
+    .latestpost-right-arrow-icon {
+        margin-left: 3em;
+    }
+
+    .latestpost-img-main,
+    .latestpost-title-heading {
+        width: 100%;
+    }
+
+    .latestpost-container {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 70%; /* Full width on smaller screens */
+        padding: 0 10px; /* Padding for spacing */
+        box-sizing: border-box; /* Ensure padding does not affect width */
+    }
+
+    .latestpost-post1,
+    .latestpost-post2 {
+        width: 80%; /* Adjust width for two columns */
+        margin-right: 4em;
+        margin-bottom: 1em;
+    }
+}
+
+@media (max-width: 768px) {
+    .latestpost-main-heading {
+        font-size: 32px; /* Reduced font size for smaller screens */
+    }
+
+    .latestpost-img-main {
+        width: 100%;
+    }
+
+    .latestpost-post1,
+    .latestpost-post2 {
+        width: 80%;
+        margin-right: 2em;
+        margin-bottom: 1em;
+        flex-wrap: nowrap;
+    }
+
+    .latestpost-post-img img{
+        background-size: contain;
+    }
+
+    .latestpost1-title-heading {
+        width: 100%;
+    }
+
+    .latestpost-author-sec {
+        align-items: flex-start;
+    }
+
+    .latestpost-arrow-icon {
+        margin-left: -2em;
+    }
+
+    .latestposts-heading-container {
+        display: flex;
+    }
+    
+    /* Marquee effect for screens 767px and smaller */
+    .marquee-container {
+        overflow: hidden;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        width: 100%; /* Full width */
+    }
+
+    .marquee-content {
+        width: 100%;
+        display: flex;
+    }
+}
+
+@media (max-width: 576px) {
+    .latestpost-main-heading {
+        font-size: 28px; /* Further reduced font size for very small screens */
+    }
+
+    .latestpost-img-main img {
+        width: 100%;
+    }
+
+    .latestpost-post1,
+    .latestpost-post2 {
+        padding-top: 8px;
+        width: 30%; /* Full width on very small screens */
+    }
+
+    .latestpost1-title-heading {
+        font-size: 14px;
+    }
+
+    .latestpost1-author-info-date {
+        font-size: 8px;
+    }
+
+    .latestpost1-author {
+        font-size: 8px;
+    }
+
+    .latestpost-container {
+        display: flex;
+        width: 80%;
+        padding: 0 10px; /* Padding for spacing */
+        box-sizing: border-box; /* Ensure padding does not affect width */
+    }
+}

@@ -2,23 +2,14 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Header.css";
 import { IoSearch } from "react-icons/io5";
-import LatestPosts from "../LatestPosts/LatestPosts.jsx";
-import Categories from "../Categories/Categories.jsx";
-import EditorsPicks from "../EditorsPicks/EditorsPicks.jsx";
-import AboutUs from "../AboutUs/AboutUs.jsx";
-import FollowUs from "../FollowUs/FollowUs.jsx";
-import Trending from "../Trending/Trending.jsx";
-import Footer from "../Footer/Footer.jsx";
-import Circle from "../Circle/Circle.jsx";
-import CircleSmall from "../CircleSmall/CircleSmall.jsx";
-import { Link } from "react-router-dom";
+import { HiMenu } from "react-icons/hi"; // Add this for menu icon
+import NavItem from "../../NavItem.jsx";
 import { useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import NavItem from "../../NavItem.jsx";
-
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState('');
+  const [showMenu, setShowMenu] = useState(false);
   const location = useLocation();
 
   useEffect(() => {
@@ -46,51 +37,70 @@ const Header = () => {
     { to: '/aboutus', label: 'About us' },
     { to: '/contactus', label: 'Contact' },
   ];
+
+  const handleMenuToggle = () => {
+    setShowMenu(!showMenu);
+  };
+
   return (
     <>
       <div className="container-fluid frame w-100">
         <header className="header">
-          <div className="container ">
+          <div className="container">
             <div className="d-flex align-items-center justify-content-between py-3 header-items">
-              <div className="d-flex align-items-center ">
-                
-                <h5 className="text-white font-weight-semibold ">Logo/Name</h5>
+              <div className="d-flex align-items-center">
+                <h5 className="text-white font-weight-semibold">Logo/Name</h5>
               </div>
+
+              <button className="navbar-toggler d-md-none" onClick={handleMenuToggle}>
+                <HiMenu className="navbar-toggler-icon" />
+              </button>
 
               <div className="d-none d-md-block">
-              <nav aria-label="Global">
-      <ul className="nav">
-        {navItems.map((item) => (
-          <NavItem
-            key={item.label}
-            to={item.to}
-            label={item.label}
-            activeLink={activeLink}
-            setActiveLink={setActiveLink}
-          />
-        ))}
-      </ul>
-     
-    </nav>
+                <nav aria-label="Global">
+                  <ul className="nav">
+                    {navItems.map((item) => (
+                      <NavItem
+                        key={item.label}
+                        to={item.to}
+                        label={item.label}
+                        activeLink={activeLink}
+                        setActiveLink={setActiveLink}
+                      />
+                    ))}
+                  </ul>
+                </nav>
               </div>
-              {/* <div className="searchbar "> 
-              <IoSearch className="search-icon" />
-                <input type="text" id="Search" className="form-control ps-5 bg-transparent input" placeholder="Search" />
-              </div> */}
-              <div className="searchbar">
-      
-      <IoSearch className="search-icon"  />
 
-        <input type="text" id="Search" className="form-control ps-5 bg-transparent  search-input" placeholder="Search" />
-        </div>
+              <div className={`searchbar ${showMenu ? 'd-none' : ''}`}>
+                <IoSearch className="search-icon" />
+                <input
+                  type="text"
+                  id="Search"
+                  className="form-control ps-5 bg-transparent search-input"
+                  placeholder="Search"
+                />
+              </div>
+
+              {showMenu && (
+                <div className="mobile-menu d-md-none">
+                  <ul className="nav">
+                    {navItems.map((item) => (
+                      <NavItem
+                        key={item.label}
+                        to={item.to}
+                        label={item.label}
+                        activeLink={activeLink}
+                        setActiveLink={setActiveLink}
+                      />
+                    ))}
+                  </ul>
+                </div>
+              )}
             </div>
           </div>
         </header>
-
-
-
-  
-       </div> 
+      </div>
     </>
   );
 };

@@ -1,3 +1,7 @@
+.blogPostPage{
+  overflow: hidden;
+
+}
 
 .blog-line  {
     position: absolute;

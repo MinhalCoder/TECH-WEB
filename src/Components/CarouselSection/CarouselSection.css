@@ -1,32 +1,53 @@
 .carousel-container {
-    position: relative;
-  }
-  
+  position: relative;
+}
+
+.custom-indicators {
+  position: absolute;
+  top: 540px; /* Change to position where you want */
+  left: 0;
+  transform: translateX(-50px);
+  display: flex;
+  gap: 10px;
+}
+
+.indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #fff;   
+  border: none; /* Customize border color */
+  cursor: pointer;
+  box-shadow: 2px 2px 2px #000;
+}
+
+.indicator.active,
+.indicator:hover {
+  background-color: black; /* Custom color #0a3452 */
+  box-shadow: 0 0 10px black, 0 0 20px black,
+              0 0 30px black, 0 0 40px black;
+  opacity: 1;
+  background: linear-gradient(180deg, rgba(10, 52, 82, 0.85) -1.35%, rgba(13, 39, 58, 0.85) 48.65%, rgba(82, 28, 135, 0.85) 98.65%);
+}
+
+@media (max-width: 1024px) {
   .custom-indicators {
-    position: absolute;
-    top: 540px; /* Change to position where you want */
-    left: 0;
-    transform: translateX(-50px);
-    display: flex;
-    gap: 10px;
+    top: 520px; /* Adjust position for medium screens */
+    gap: 8px; /* Adjust spacing for medium screens */
   }
-  
-  .indicator {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-background: #fff;   
- border: none;/* Customize border color */
-    cursor: pointer;
-    box-shadow: 2px 2px 2px #000;
+}
+
+@media (max-width: 768px) {
+  .custom-indicators {
+    top: 450px; /* Adjust position for smaller screens */
+    gap: 6px; /* Adjust spacing for smaller screens */
+    left: 50%;
   }
-  
-  .indicator.active,
-  .indicator:hover {
-    background-color: black; /* Custom color #0a3452 */
-    box-shadow: 0 0 10px black, 0 0 20px black,
-                0 0 30px black, 0 0 40px black;
-    opacity: 1;
-    background: linear-gradient(180deg, rgba(10, 52, 82, 0.85) -1.35%, rgba(13, 39, 58, 0.85) 48.65%, rgba(82, 28, 135, 0.85) 98.65%);
+}
+
+@media (max-width: 480px) {
+  .custom-indicators {
+    top: 450px; /* Adjust position for mobile screens */
+    gap: 4px; /* Adjust spacing for mobile screens */
   }
-  
+}
