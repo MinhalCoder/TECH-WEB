@@ -27,7 +27,7 @@ const CommentSec = () => {
         text: newComment,
         timestamp: 'Just now',
         likes: '0',
-        avatar: 'assets/Images/author1.png',
+        avatar: 'assets/Images/author2.png',
         replies: []
       };
       setComments([...comments, newCommentObject]);
@@ -46,7 +46,7 @@ const CommentSec = () => {
         author: 'New User',
         text: reply,
         timestamp: 'Just now',
-        avatar: 'assets/Images/author1.png'
+        avatar: 'assets/Images/author2.png'
       });
       setComments(updatedComments);
       setReply('');
