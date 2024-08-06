@@ -10,7 +10,7 @@
 .about-line {
     position: absolute;
     top: 0;
-    height: 2.1%;
+    height: 1.63%;
     width: 1px;
     background-color:  rgba(255, 251, 251, 0.19);
   }
@@ -24,4 +24,30 @@
   .about-line.right {
     right: 1;
     margin-left: 63%;
+  }
+
+
+  @media (max-width: 1240px) {
+ 
+
+    .about-line{
+      display: none;
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+  
+  
+    .about-line{
+      display: none;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-line{
+      display: none;
+    }
+  
+   
   }

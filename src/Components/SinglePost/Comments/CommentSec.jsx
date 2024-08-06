@@ -62,9 +62,13 @@ const CommentSec = () => {
 
   return (
     <>
-       <button className="toggle-button" onClick={toggleCommentSection}>
-        <IoChatbubbleOutline />
-      </button>
+               <div className="button-container">
+  <sup className='button-heading'>Comment</sup>
+  <button className="toggle-button" onClick={toggleCommentSection}>
+   <img className='comment-icon' src="assets/Images/comment-icon1.png" width={60} alt="" />
+  </button>
+</div>
+      
       {isCommentSectionVisible && (
         <div className="comment-section">
           <button className="close-button" onClick={toggleCommentSection}>

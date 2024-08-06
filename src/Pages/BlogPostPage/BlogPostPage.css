@@ -6,7 +6,7 @@
 .blog-line  {
     position: absolute;
     top: 0;
-    height: 1.48%;
+    height: 1.38%;
     width: 1px;
     background-color:  rgba(255, 251, 251, 0.19);
   }
@@ -21,3 +21,30 @@
     right: 1;
     margin-left: 63%;
   }
+
+
+  @media (max-width: 1240px) {
+ 
+
+    .blog-line{
+      display: none;
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+  
+  
+    .blog-line{
+      display: none;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .blog-line{
+      display: none;
+    }
+  
+   
+  }
+  

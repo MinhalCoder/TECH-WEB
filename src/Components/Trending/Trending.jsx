@@ -20,7 +20,7 @@ const Trending = () => {
    <div className="fade-in-up" ref={elementRef}>
    <div className="trending-heading-container d-flex  ">
     <h1 className="trending-main-heading">Trending Posts</h1>
-<BsArrowRightCircleFill className="trending-right-arrow-icon   mt-3" color="white" size="2em" />
+<BsArrowRightCircleFill className="trending-right-arrow-icon   mt-1" color="white" size="2.6em" />
     </div>
     <div className="trending-posts-container">
         <div className="trending-post mt-3 ">
@@ -50,7 +50,7 @@ const Trending = () => {
       
               <IoSearch className="search2-icon" />
 
-                <input type="text" id="Search2" className="form-control ps-5 bg-transparent  search2-input" placeholder="Search" />
+                <input type="text" id="Search2" className="form-control  bg-transparent  search2-input" placeholder="Search" />
                 </div>
 
       

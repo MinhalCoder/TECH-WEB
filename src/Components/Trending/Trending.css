@@ -5,10 +5,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  font-size: 45px;
 }
 
 .trending-right-arrow-icon {
-  margin-left: 6em;
+  margin-left: 3.3em;
 }
 
 .trending-heading-container {

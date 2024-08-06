@@ -12,7 +12,7 @@
 .line {
   position: absolute;
   top: 0;
-  height: 1.42%;
+  height: 1.35%;
   width: 1px;
   background-color:  rgba(255, 251, 251, 0.19);
 }
@@ -27,6 +27,15 @@
   right: 1;
   margin-left: 60%;
 }
+
+@media (max-width: 1240px) {
+ 
+
+  .line{
+    display: none;
+  }
+}
+
 
 @media (max-width: 768px) {
   .home-page {

@@ -32,7 +32,7 @@ const BlogPostCategories = () => {
                     </ul>
                     <div className="vector d-flex justify-content-between">
                         <img src="assets/Images/Vector.png" alt="" width={20} height={20} />
-                        <p>More on visual appeal</p>
+                        <p>More on visual...</p>
                     </div>
                 </div>
                 <div className="col-6 ">
@@ -75,7 +75,7 @@ const BlogPostCategories = () => {
                     </ul>
                     <div className="vector d-flex justify-content-between  ">
                         <img src="assets/Images/Vector.png" alt="" width={20} height={20} />
-                        <p>More on visual appeal </p>
+                        <p>More on visual... </p>
                     </div>
                 </div>
                 <div className="col-6 ">
@@ -130,15 +130,18 @@ const BlogPostCategories = () => {
         </div>
     </div>
    </div>
-
+   <div className="blog-follow mx-3">
    <FollowUs/>
 
-   <h3 className="trending-main-heading mt-4">Search</h3>
-    <div className="search2-bar ">
+   </div>
+
+  
+   <h3 className="trending-main-heading mt-5 mx-3">Search</h3>
+    <div className="search2-bar mx-3 ">
       
               <IoSearch className="search2-icon" />
 
-                <input type="text" id="Search2" className="form-control ps-5 bg-transparent  search2-input" placeholder="Search" />
+                <input type="text" id="Search2" className="form-control  bg-transparent  search2-input" placeholder="Search" />
                 </div>
 </>
 )

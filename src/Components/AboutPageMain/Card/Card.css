@@ -15,9 +15,18 @@
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
   
   }
-  .author-info{
+
+  .card-img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-top: 3%;
+  }
+
+  .card-author-info{
     margin-left: 2em;
-    margin-top: 1%;
+    margin-top: 4%;
+    line-height: 1;
   }
   
   .card-footer {

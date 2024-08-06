@@ -1,8 +1,10 @@
 import React from 'react'
 import './AboutPageMain.css'
 import Marquee from "react-fast-marquee";
-import Card from './Card/Card';
+import Card from './Card/Card.jsx';
 import useIntersectionObserver from '../useIntersectionObserver ';
+import CircleSmall from '../CircleSmall/CircleSmall.jsx';
+import Circle from '../Circle/Circle.jsx';
 
 const AboutPageMain = () => {
   const elementRef = useIntersectionObserver((element) => {
@@ -24,25 +26,26 @@ const AboutPageMain = () => {
             </div>
         </div>
     </div>
+    <CircleSmall/>
 
     <div className="container aboutUsMain-content-container">
         <div className="row">
             <div className="col-6">
-            <p className='aboutUsMain-content'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veritatis nostrum amet reprehenderit quasi provident, doloribus similique voluptates voluptas non voluptatibus pariatur, earum deleniti at possimus ratione asperiores quisquam debitis magni. obcaecati quasi aut repudiandae tenetur mollitia impedit voluptatibus ab? Quisquam dolor suscipit eum magnam..</p>
+            <p className='aboutUsMain-content'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti libero, suscipit similique esse quo nemo qui deserunt quisquam consequatur asperiores voluptas nihil incidunt nesciunt pariatur autem et quod sed vel sequi aliquid illo. Voluptatem odit velit vero fuga voluptate, consequatur qui ratione recusandae magni, facere a quibusdam tempora esse? A harum corrupti consectetur ipsa, consequatur facilis cumque inventore dolore perspiciatis laudantium, recusandae  incidunt itaque, dolores unde accusamus nisi maiores expedita tempora saepe repellat iure eius totam. Quis, rem libero..</p>
             </div>
             <div className="col-6">
                <img className='aboutUsMain-img' src="assets/Images/Carousel-image1.png" alt="" />
             </div>
         </div>
     </div>
-
+<Circle/>
     <div className="container aboutUsMain-content-container">
         <div className="row">
         <div className="col-6 ">
                <img  src="assets/Images/profile-img.png" alt="" />
             </div>
             <div className="col-6">
-            <p className='aboutUsMain-content'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus repudiandae dolores blanditiis quasi nam. Rem, pariatur harum eum excepturi unde praesentium reiciendis recusandae velit asperiores veniam officia voluptates deleniti itaque, officiis accusantium sed aut! Quos ducimus illo tempora sapiente hic officia porr expedita dolorem tenetur omnis sit nihil? Culpa, deserunt.</p>
+            <p className='aboutUsMain-content'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit reprehenderit numquam error omnis inventore, obcaecati quidem perferendis in soluta expedita possimus et commodi iusto repellat! Facere eos quidem id temporibus iure eius, adipisci voluptatem alias sequi itaque reiciendis eveniet eaque provident porro cupiditate a natus quod ad nam quo esse ab praesentium. Quam quaerat pariatur illo magnam odit sed, dolorem ad officia molestias vero atque ratione doloremque ipsum expedita sapiente officiis qui natus itaque necessitatibus nesciunt minus. Amet et cumque magni incidunt!.</p>
             </div>
             
         </div>
@@ -55,9 +58,10 @@ const AboutPageMain = () => {
                 <h3 className='text-center'>What People</h3>
                 <h1> Say About Us</h1>
                 </div>
+                <CircleSmall/>
                 <div className="marquee-container">
                 <div className="Marquee">
-                    <Marquee  
+                    <Marquee 
                     speed={100}
                     >
                       <Card/>

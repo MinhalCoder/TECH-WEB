@@ -16,7 +16,7 @@ const AboutUs = () => {
     <div className="aboutus-heading-container d-flex " >
     <h1 className="aboutus-main-heading">About Us</h1>
     <Link to="/AboutUs" className="text-decoration-none">
-<BsArrowRightCircleFill className="aboutus-right-arrow-icon   mt-3" color="white" size="2em" />
+<BsArrowRightCircleFill className="aboutus-right-arrow-icon  mt-1 " color="white" size="2.6em" />
 </Link>   
     </div>
 

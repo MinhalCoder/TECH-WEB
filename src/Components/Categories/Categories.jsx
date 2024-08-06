@@ -14,7 +14,7 @@ const Categories = () => {
    <div className="fade-in-up" ref={elementRef}>
    <div className="categories-heading-container mx-3 d-flex ">
     <h1 className="Categories-main-heading mb-lg-5">Categories</h1>
-<BsArrowRightCircleFill className="categories-right-arrow-icon   mt-3" color="white" size="2em" />
+<BsArrowRightCircleFill className="categories-right-arrow-icon mt-2" color="white" size="3em" />
     </div>
 
          <div className="categories-container mx-2">
@@ -28,23 +28,23 @@ const Categories = () => {
                         <li>Lorem ip</li>
                        
                     </ul>
-                    <div className="vector d-flex justify-content-between mt-4 ">
-                        <img src="assets/Images/Vector.png" alt="" width={20} height={20} />
-                        <p>More on visual appeal</p>
+                    <div className="category-vector d-flex  mt-4 ">
+                        <img src="assets/Images/Vector.png" alt="" width={30} height={30} />
+                        <p className='vector-text'>More on visual appeal....</p>
                     </div>
                 </div>
                 <div className="col-6 ">
-                <img className='category-img mx-5' src="assets/Images/img2.png" alt="" width={220} height={220} />
+                <img className='category-img mx-5' src="assets/Images/img2.png" alt="" width={250} height={250} />
                 
                 </div>
             </div>
             {/* 2nd row */}
             <div className="category-content d-flex mt-5 text-white">
             <div className="col-6 ">
-                <img className='category-img ' src="assets/Images/img1.png" alt="" width={220} height={220} />
+                <img className='category-img ' src="assets/Images/img1.png" alt="" width={250} height={250} />
                 
                 </div>
-                <div className="col-6   mx-5">
+                <div className="col-6   mx-4">
                     <h3 className='mx-4'>TECH</h3>
                     <ul  className='list list-unstyled mx-4'>
                         <li>Lorem ipsum</li>
@@ -53,9 +53,9 @@ const Categories = () => {
                         <li>Lorem ip</li>
                        
                     </ul>
-                    <div className="vector d-flex justify-content-between mt-4 mx-4">
-                        <img src="assets/Images/Vector.png" alt="" width={20} height={20} />
-                        <p  >More on visual... </p>
+                    <div className="category-vector d-flex  mt-4 mx-4">
+                        <img src="assets/Images/Vector.png" alt="" width={30} height={30} />
+                        <p className='vector-text' >More on visual appeal.... </p>
                     </div>
                 </div>
                
@@ -71,23 +71,23 @@ const Categories = () => {
                         <li>Lorem ip</li>
                        
                     </ul>
-                    <div className="vector d-flex justify-content-between mt-4 ">
-                        <img src="assets/Images/Vector.png" alt="" width={20} height={20} />
-                        <p>More on visual appeal </p>
+                    <div className="category-vector d-flex  mt-4 ">
+                        <img src="assets/Images/Vector.png" alt="" width={30} height={30} />
+                        <p className='vector-text'>More on visual appeal.... </p>
                     </div>
                 </div>
                 <div className="col-6 ">
-                <img className='category-img mx-5' src="assets/Images/img2.png" alt="" width={220} height={220} />
+                <img className='category-img mx-5' src="assets/Images/img2.png" alt="" width={250} height={250} />
                 
                 </div>
             </div>
             {/* 4th row */}
             <div className="category-content d-flex mt-5 text-white">
             <div className="col-6 ">
-                <img className='category-img' src="assets/Images/img1.png" alt="" width={220} height={220} />
+                <img className='category-img' src="assets/Images/img1.png" alt="" width={250} height={250} />
                 
                 </div>
-                <div className="col-6  mx-5">
+                <div className="col-6  mx-4">
                     <h3 className='mx-4' >TECH</h3>
                     <ul  className='list list-unstyled mx-4'>
                         <li>Lorem ipsum</li>
@@ -96,9 +96,9 @@ const Categories = () => {
                         <li>Lorem ip</li>
                        
                     </ul>
-                    <div className="vector d-flex justify-content-between mt-4 mx-4 ">
-                        <img src="assets/Images/Vector.png" alt="" width={20} height={20} />
-                        <p>More on visual... </p>
+                    <div className="category-vector d-flex  mt-4 mx-4 ">
+                        <img src="assets/Images/Vector.png" alt="" width={30} height={30} />
+                        <p  className='vector-text'>More on visual appeal....</p>
                     </div>
                 </div>
                
@@ -114,13 +114,13 @@ const Categories = () => {
                         <li>Lorem ip</li>
                        
                     </ul>
-                    <div className="vector d-flex justify-content-between mt-4">
-                        <img src="assets/Images/Vector.png" alt="" width={20} height={20} />
-                        <p>More on visual appeal </p>
+                    <div className="category-vector d-flex  mt-4">
+                        <img src="assets/Images/Vector.png" alt="" width={30} height={30} />
+                        <p className='vector-text' >More on visual appeal.... </p>
                     </div>
                 </div>
                 <div className="col-6 ">
-                <img className='category-img mx-5' src="assets/Images/img2.png" alt="" width={220} height={220} />
+                <img className='category-img mx-5' src="assets/Images/img2.png" alt="" width={250} height={250} />
                 
                 </div>
             </div>

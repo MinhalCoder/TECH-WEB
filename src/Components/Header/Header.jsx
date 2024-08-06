@@ -4,7 +4,7 @@ import "./Header.css";
 import { IoSearch } from "react-icons/io5";
 import { HiMenu } from "react-icons/hi"; // Add this for menu icon
 import NavItem from "../../NavItem.jsx";
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
 const Header = () => {
@@ -32,10 +32,10 @@ const Header = () => {
   }, [location.pathname]);
 
   const navItems = [
-    { to: '/', label: 'Home' },
-    { to: '/BlogPostPage', label: 'Posts' },
-    { to: '/aboutus', label: 'About us' },
-    { to: '/contactus', label: 'Contact' },
+    { to: '/', label: 'Home', className: 'home' },
+    { to: '/BlogPostPage', label: 'Posts', className: 'posts' },
+    { to: '/aboutus', label: 'About us', className: 'about' },
+    { to: '/contactus', label: 'Contact', className: 'contact' },
   ];
 
   const handleMenuToggle = () => {
@@ -49,7 +49,10 @@ const Header = () => {
           <div className="container">
             <div className="d-flex align-items-center justify-content-between py-3 header-items">
               <div className="d-flex align-items-center">
+                <Link className="text-decoration-none" to={'/'}>
                 <h5 className="text-white font-weight-semibold">Logo/Name</h5>
+
+                </Link>
               </div>
 
               <button className="navbar-toggler d-md-none" onClick={handleMenuToggle}>
@@ -66,6 +69,7 @@ const Header = () => {
                         label={item.label}
                         activeLink={activeLink}
                         setActiveLink={setActiveLink}
+                        className={item.className}
                       />
                     ))}
                   </ul>
@@ -77,7 +81,7 @@ const Header = () => {
                 <input
                   type="text"
                   id="Search"
-                  className="form-control ps-5 bg-transparent search-input"
+                  className="form-control  bg-transparent search-input"
                   placeholder="Search"
                 />
               </div>
@@ -92,6 +96,7 @@ const Header = () => {
                         label={item.label}
                         activeLink={activeLink}
                         setActiveLink={setActiveLink}
+                        className={item.className}
                       />
                     ))}
                   </ul>
