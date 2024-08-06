@@ -65,7 +65,7 @@ const CommentSec = () => {
                <div className="button-container">
   <sup className='button-heading'>Comment</sup>
   <button className="toggle-button" onClick={toggleCommentSection}>
-   <img className='comment-icon' src="assets/Images/comment-icon1.png" width={60} alt="" />
+   <img className='comment-icon' src="/Images/comment-icon1.png" width={60} alt="" />
   </button>
 </div>
       
