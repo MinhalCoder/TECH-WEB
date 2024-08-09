@@ -52,7 +52,7 @@
 
 @media (max-width: 480px) {
   .custom-indicators {
-    top: 290px; /* Adjust position for mobile screens */
+    top: 340px; /* Adjust position for mobile screens */
     gap: 8px; /* Adjust spacing for mobile screens */
   }
 }

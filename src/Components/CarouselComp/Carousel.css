@@ -63,16 +63,17 @@
 
 @media (max-width: 768px) {
   .Carousel {
-    padding: 1.5em 1em 1.5em 1em;
+    padding: 1.5em 1em 5em 1em;
     flex-direction: column;
     align-items: center;
+    height: 40em;
     /* background: none; */
   }
 
   .carouselSection {
     width: 100%;
    position: absolute;
-   top: 12px;
+   top: 20em;
    right: -2.2em;
   }
 
@@ -82,7 +83,7 @@
     width: 100%;
     height: auto;
     text-align: center;
-    margin-top: 10em;
+    margin-top: 1em;
   }
 
   .carouselContent{
