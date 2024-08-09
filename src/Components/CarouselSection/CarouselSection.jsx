@@ -19,16 +19,17 @@ const CarouselSection = () => {
   return (
     <div className="carousel-container">
       <Carousel
-        autoPlay={true}
-        infiniteLoop={true}
-        transitionTime={300}
-        showThumbs={false}
-        showStatus={false}
-        showArrows={false}
-        showIndicators={false} // Hide default indicators
-        stopOnHover={false}
-        selectedItem={currentIndex}
-        onChange={handleOnChange}
+      autoPlay={true}
+      infiniteLoop={true}
+      transitionTime={300}
+      showThumbs={false}
+      showStatus={false}
+      showArrows={false}
+      showIndicators={false} // Hide default indicators
+      stopOnHover={false}
+      selectedItem={currentIndex}
+      onChange={handleOnChange}
+      swipeable={false}
       >
         <div>
           <img className="carousel-image" src="assets/Images/Carousel-image1.png" />
