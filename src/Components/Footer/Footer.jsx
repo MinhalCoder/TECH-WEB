@@ -88,8 +88,8 @@ const Footer = () => {
        */}
       <img className='footer-line' src="assets/Images/line.png" alt=""  />
     
-      <div className="text-center py-2 text-white fs-6 fw-light mt-3 mb-4">
-        Copyright ©2024 ---------------- All rights reserved
+      <div className="footer-copyright text-center py-2 text-white fs-6 fw-light mt-3 mb-4">
+        Copyright ©2024 ----- All rights reserved
       </div>
     </footer>
 

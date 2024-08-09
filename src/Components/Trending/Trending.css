@@ -7,6 +7,15 @@
   background-clip: text;
   font-size: 45px;
 }
+.search-main-heading {
+  font-weight: 700;
+  font-family: "Poppins";
+  background: linear-gradient(180deg, #ffffff 0%, #fefefe 0.01%, #999999 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 45px;
+}
 
 .trending-right-arrow-icon {
   margin-left: 3.3em;
@@ -75,16 +84,17 @@
 
 @media (max-width: 768px) {
   .trending-main-heading {
-      font-size: 32px;
+      font-size: 35px;
       margin-top: 7px;
   }
 
   .trending-right-arrow-icon {
-      margin-left: 2em;
-  }
+display: none;  }
 
   .trending-heading-container {
       margin-top: 3em;
+      justify-content: center;
+      align-items: center;
   }
 
   .trending-post p {
@@ -94,28 +104,14 @@
 
   .trending-post {
       background-size: cover;
-  }
-
-  .search2-bar {
-    margin: 2em 0 2em 0;
-      background-size: contain , cover;
-      align-items: center;
-  }
-
-  .search2-icon {
-      font-size: 1.5rem;
-      margin: 0 auto 10px;
-      margin-left: 1em;
-  }
-
-  .search2-input {
-      width: 100%;
-      padding: 10px;
+      margin: 2em;
       text-align: center;
   }
-
-
   .trending-post img {
       width: 100%;
+  }
+
+  .searchbar-container{
+    display: none;
   }
 }

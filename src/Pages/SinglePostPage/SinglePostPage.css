@@ -27,3 +27,16 @@
     right: 1;
     margin-left: 60%;
   }
+
+  /* SinglePostPage.css */
+
+/* SinglePostPage.css */
+
+/* Apply blur only to the main content, excluding the comment section */
+.blurred .singlePostContent, 
+.blurred .singlepost-right,
+.blurred .Header, 
+.blurred .singlePostHeroSec {
+  filter: blur(5px);
+  transition: filter 0.3s ease;
+}

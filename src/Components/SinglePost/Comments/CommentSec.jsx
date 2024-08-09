@@ -5,7 +5,7 @@ import { IoIosSend } from "react-icons/io";
 import { IoSendSharp, IoChatbubbleOutline, IoClose } from "react-icons/io5";
 import { useLocation } from 'react-router-dom';
 
-const CommentSec = () => {
+const CommentSec = ({ setCommentSectionVisible }) => {
   const location = useLocation();
   const [comments, setComments] = useState([
     { author: 'Alina Nguyen', text: 'Great post! Really enjoyed the insights on Modern web design...', timestamp: '2 hours ago', likes: '1k', avatar: 'assets/Images/author1.png', replies: [] },
@@ -56,19 +56,20 @@ const CommentSec = () => {
 
   const toggleCommentSection = () => {
     setIsCommentSectionVisible(!isCommentSectionVisible);
+    setCommentSectionVisible(!isCommentSectionVisible);
   };
 
   if (!shouldShowCommentSec) return null;
 
   return (
     <>
-               <div className="button-container">
-  <sup className='button-heading'>Comment</sup>
-  <button className="toggle-button" onClick={toggleCommentSection}>
-   <img className='comment-icon'  width={60} alt="" />
-  </button>
-</div>
-      
+      <div className="button-container">
+        <sup className='button-heading'>Comment</sup>
+        <button className="toggle-button" onClick={toggleCommentSection}>
+          <img className='comment-icon' width={60} alt="" />
+        </button>
+      </div>
+
       {isCommentSectionVisible && (
         <div className="comment-section">
           <button className="close-button" onClick={toggleCommentSection}>
@@ -101,8 +102,7 @@ const CommentSec = () => {
                         onChange={(e) => setReply(e.target.value)}
                         placeholder="Add a reply..."
                       />
-                      <button className="reply-button" onClick={() => handleAddReply(index)}><IoIosSend />
-                      </button>
+                      <button className="reply-button" onClick={() => handleAddReply(index)}><IoIosSend /></button>
                     </div>
                   )}
                   {comment.replies.length > 0 && (

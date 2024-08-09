@@ -57,35 +57,32 @@
   border: 1px solid grey;
 }
 
-body.light-mode .carousel-bottom-frame {
-  margin-top: -2%;
-  background-image: url('/assets/Images/Frame2.png'), url('/assets//Images/Frame2.png');
-  background-repeat: no-repeat;
-  background-position: top;
-  background-position-x: 160%;
-  background-position: center;
-  margin-left: -80px;
+.frame-container{
+  padding-top: 8em;
 }
 
 @media (max-width: 768px) {
   .Carousel {
-    padding: 1em;
+    padding: 1.5em 1em 1.5em 1em;
     flex-direction: column;
     align-items: center;
+    /* background: none; */
   }
 
   .carouselSection {
     width: 100%;
-    padding-bottom: 0;
+   position: absolute;
+   top: 12px;
+   right: -2.2em;
   }
 
   .carouselHeading {
-    font-size: 1.5rem;
+    font-size: 4rem;
     line-height: 2rem;
     width: 100%;
     height: auto;
     text-align: center;
-    margin-top: 2em;
+    margin-top: 10em;
   }
 
   .carouselContent{
@@ -94,20 +91,34 @@ body.light-mode .carousel-bottom-frame {
   justify-content: center;
   align-items: center;
   }
+
+  .btn-1{
+    width: 100%;
+  }
+
+  .btn-gradient{
+    display: none;
+  }
+
+  .frame-container{
+    padding-top: 4em;
+  }
+
+ 
   
 }
 
 @media (max-width: 480px) {
   .Carousel {
-    padding: 0.5em;
+    padding: 1.5em 1em 1.5em 1em;
   }
  
   
 
   .carouselHeading {
-    font-size: 1.2rem;
-    line-height: 1.8rem;
-    margin-top: 2em;
+    font-size:2rem;
+    line-height: 3rem;
+    /* margin-top: 25em; */
   }
 
  

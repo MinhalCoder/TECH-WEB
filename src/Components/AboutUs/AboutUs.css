@@ -95,22 +95,29 @@
   }
   
   @media (max-width: 768px) {
+    .aboutus-heading-container{
+      justify-content: center;
+      align-items: center;
+     }
     .aboutus-main-heading {
-      font-size: 35px;
+      font-size: 44px;
     }
   
     .aboutus-right-arrow-icon {
-      size: 1.5em;
+    display: none;
     }
   
     .aboutus {
-      margin-right: 0;
-      margin-top: 2em;
+      margin: 1em 2em 1em 2em;
     }
   
     .aboutus-img {
       width: 100%;
       height: auto;
+    }
+
+    .aboutus-content{
+      padding: 0 2em 0 2em ;
     }
   
     .aboutus-content-heading {
@@ -124,8 +131,12 @@
   }
   
   @media (max-width: 576px) {
+    .aboutus-heading-container{
+     justify-content: center;
+     align-items: center;
+    }
     .aboutus-main-heading {
-      font-size: 30px;
+      font-size: 42px;
     }
   
     .aboutus-content-heading {

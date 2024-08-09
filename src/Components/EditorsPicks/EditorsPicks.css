@@ -49,8 +49,14 @@ font-size: smaller;
 
 /* Mobile Layout (Single Column) */
 @media (max-width: 768px) {
+    .editorspicks-main-heading {
+      font-size: 36px; 
+      text-align: center;
+  }
+
   .editorspicks-posts {
-      margin-top: 3em; /* Adjust margin for better spacing on mobile */
+      margin-top:2em; /* Adjust margin for better spacing on mobile */
+      padding: 2em;
   }
 
   .editors-content {
@@ -62,14 +68,23 @@ font-size: smaller;
   }
 
   .editors-author-sec {
-    justify-content: space-between;
       align-items: flex-start; /* Align items to the start */
-      gap: 5px; /* Reduce gap between items */
-      margin-bottom: 1em; /* Adjust margin for better spacing */
+      margin-bottom: 2em; /* Adjust margin for better spacing */
   }
 
   .editors-arrow-icon {
-      margin-left: 0; /* Remove left margin */
-      margin-top: 0.5em; /* Add top margin to separate from text */
+      margin-left: 2.8em; /* Remove left margin */
   }
+
+
+  .editors-picks-line{
+    width: 100%;
+  }
+
+  .editors-author-info .name{
+    display: block;
+    font-size: 16px;
+  }
+
+ 
 }

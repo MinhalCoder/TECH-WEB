@@ -49,13 +49,9 @@ const Carousel = () => {
           </div>
         </div>
       </div>
-      <img
-        className="carousel-bottom-frame"
-        src="assets/Images/frame2.png"
-        alt=""
-      />
+    
 
-      <div className="container frame-container py-5">
+      <div className="container frame-container">
         <div className="row">
           <div className="col-7">
             <LatestPosts />
@@ -69,6 +65,7 @@ const Carousel = () => {
             <EditorsPicks />
             <AboutUs />
             <FollowUs />
+         
             <Trending />
           </div>
         </div>

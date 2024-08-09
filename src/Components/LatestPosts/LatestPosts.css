@@ -123,7 +123,6 @@
         margin-left: 4em;
     }
 
-    .latestpost-posts-container,
     .latestpost-title-heading {
         width: 100%;
     }
@@ -149,13 +148,6 @@
         width: 100%;
     }
 
-    .latestpost-container {
-        display: flex;
-        flex-wrap: nowrap;
-        width: 70%; /* Full width on smaller screens */
-        padding: 0 10px; /* Padding for spacing */
-        box-sizing: border-box; /* Ensure padding does not affect width */
-    }
 
     .latestpost-post1,
     .latestpost-post2 {
@@ -167,70 +159,73 @@
 
 @media (max-width: 768px) {
     .latestpost-main-heading {
-        font-size: 32px; /* Reduced font size for smaller screens */
+        font-size: 3em; /* Reduced font size for smaller screens */
+    }
+    .latestposts-heading-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     
     }
 
     .latestpost-img-main {
         width: 100%;
     }
 
-    .latestpost-post1,
-    .latestpost-post2 {
-        width: 80%;
-        margin-right: 2em;
-        margin-bottom: 1em;
-        flex-wrap: nowrap;
+    .latestpost-right-arrow-icon{
+        display: none;
     }
 
-    .latestpost-post-img img{
-        background-size: contain;
-    }
-
-    .latestpost1-title-heading {
+    .latestpost-title img {
         width: 100%;
     }
+   
 
     .latestpost-author-sec {
-        align-items: flex-start;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    .latestpost-author-sec .author-img{
+        width: 60px;
+    }
+    .latestpost-author-sec .author-name {
+        font-size: 22px;
+        margin-top: 9px;
+    }
+
+    .latestpost-author-sec .author-info-date {
+        font-size: 16px;
     }
 
     .latestpost-arrow-icon {
         margin-left: -2em;
+        width: 50px;
     }
 
-    .latestposts-heading-container {
-        display: flex;
-    }
-    
-    /* Marquee effect for screens 767px and smaller */
-    .marquee-container {
-        overflow: hidden;
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: row;
-        width: 100%; /* Full width */
+    .latestpost-container {
+        display: none;
+     
     }
 
-    .marquee-content {
-        width: 100%;
-        display: flex;
+    .latestpost-post1{
+        display: none;
+    }
+    .latestpost-post2{
+        display: none;
     }
 }
-
 @media (max-width: 576px) {
     .latestpost-main-heading {
-        font-size: 28px; /* Further reduced font size for very small screens */
+        font-size: 2.5em; /* Further reduced font size for very small screens */
     }
 
     .latestpost-img-main img {
         width: 100%;
     }
 
-    .latestpost-post1,
-    .latestpost-post2 {
-        padding-top: 8px;
-        width: 30%; /* Full width on very small screens */
-    }
+   
 
     .latestpost1-title-heading {
         font-size: 14px;
@@ -245,9 +240,14 @@
     }
 
     .latestpost-container {
-        display: flex;
-        width: 80%;
-        padding: 0 10px; /* Padding for spacing */
-        box-sizing: border-box; /* Ensure padding does not affect width */
+        display: none;
+     
+    }
+
+    .latestpost-post1{
+        display: none;
+    }
+    .latestpost-post2{
+        display: none;
     }
 }

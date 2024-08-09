@@ -13,15 +13,28 @@ border-radius: 10px;
 }
 
 .followus-main-heading{
-        font-size: 50px;
-      
+        font-size: 50px;   
         font-weight: 700;
-        font-family: "Poppins";
-      
+        font-family: "Poppins";   
         background: linear-gradient(180deg, #ffffff 0%, #fefefe 0.01%, #999999 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
         margin-top: 2em;
-      
+}
+
+
+@media (max-width: 768px) {   
+     .followus-heading-container{
+              justify-content: center;
+              align-items: center;
+              
+        }
+
+        .follow-icon-box{
+                width: 280px;
+        padding: 10px;
+ margin-left: 2em;
+        }
+        
 }

@@ -44,8 +44,8 @@ const Trending = () => {
 
 
     <CircleSmall/>
-
-    <h3 className="trending-main-heading mt-4">Search</h3>
+<div className="searchbar-container">
+<h3 className="search-main-heading mt-4">Search</h3>
     <div className="search2-bar search2bar-bg ">
       
               <IoSearch className="search2-icon" />
@@ -53,6 +53,8 @@ const Trending = () => {
                 <input type="text" id="Search2" className="form-control  bg-transparent  search2-input" placeholder="Search" />
                 </div>
 
+</div>
+   
       
 
 </>)

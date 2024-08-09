@@ -6,9 +6,10 @@ import CommentSec from '../Comments/CommentSec';
 import { IoSearch } from "react-icons/io5";
 import './SinglePostContent.css';
 
-const SinglePostContent = () => {
+const SinglePostContent = ({ setCommentSectionVisible }) => {
   return (
-    <div className="container singlePostContent mb-lg-5">
+    <>
+     <div className="container singlePostContent mb-lg-5">
       <div className="row">
         <div className="col-8">
           <h1>Introduction</h1>
@@ -63,10 +64,15 @@ const SinglePostContent = () => {
 
                 <input type="text" id="singlePostSearch" className="form-control ps-3 bg-transparent   singlePostSearch-input" placeholder="Search" />
                 </div>
-          <CommentSec />
         </div>
       </div>
     </div>
+    <CommentSec setCommentSectionVisible={setCommentSectionVisible} />
+
+    </>
+
+   
+
   );
 };
 

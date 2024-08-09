@@ -39,15 +39,20 @@
 
 @media (max-width: 768px) {
   .custom-indicators {
-    top: 450px; /* Adjust position for smaller screens */
+    top: 400px; /* Adjust position for smaller screens */
     gap: 6px; /* Adjust spacing for smaller screens */
     left: 50%;
+  }
+
+  .carousel-container {
+    width: 80%;
+    height: 80%;
   }
 }
 
 @media (max-width: 480px) {
   .custom-indicators {
-    top: 450px; /* Adjust position for mobile screens */
-    gap: 4px; /* Adjust spacing for mobile screens */
+    top: 290px; /* Adjust position for mobile screens */
+    gap: 8px; /* Adjust spacing for mobile screens */
   }
 }

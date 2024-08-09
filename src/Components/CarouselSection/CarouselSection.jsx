@@ -31,15 +31,14 @@ const CarouselSection = () => {
         onChange={handleOnChange}
       >
         <div>
-          <img className="carousel-image" src="assets/Images/Carousel-image1.png" width={400} height={400} />
+          <img className="carousel-image" src="assets/Images/Carousel-image1.png" />
         </div>
         <div>
-          <img src="assets/Images/Carousel-image2.png" width={400} height={400} />
+          <img src="assets/Images/Carousel-image2.png"  />
         </div>
         <div>
           <img src="assets/Images/Carousel-image3.png" />
         </div>
-       
         <div>
           <img src="assets/Images/Carousel-image5.png" />
         </div>

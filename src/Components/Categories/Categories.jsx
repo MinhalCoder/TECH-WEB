@@ -19,8 +19,10 @@ const Categories = () => {
 
          <div className="categories-container mx-2">
             <div className="category-content d-flex mt-5 text-white">
-                <div className="col-6 ">
-                    <h3>TECH</h3>
+                <div className="col-6  ">
+                <h3>TECH</h3>
+
+                    <div className="content">
                     <ul  className='list list-unstyled'>
                         <li>Lorem ipsum</li>
                         <li>Lorem ips</li>
@@ -32,21 +34,30 @@ const Categories = () => {
                         <img src="assets/Images/Vector.png" alt="" width={30} height={30} />
                         <p className='vector-text'>More on visual appeal....</p>
                     </div>
+                    </div>
+                   
                 </div>
                 <div className="col-6 ">
-                <img className='category-img mx-5' src="assets/Images/img2.png" alt="" width={250} height={250} />
+                    <div className="category-content-img">
+                    <img className='category-img category-image' src="assets/Images/img2.png" alt="" width={250} height={250} />
+
+                    </div>
                 
                 </div>
             </div>
             {/* 2nd row */}
+
+            <div className="content-none">
             <div className="category-content d-flex mt-5 text-white">
             <div className="col-6 ">
                 <img className='category-img ' src="assets/Images/img1.png" alt="" width={250} height={250} />
                 
                 </div>
                 <div className="col-6   mx-4">
-                    <h3 className='mx-4'>TECH</h3>
-                    <ul  className='list list-unstyled mx-4'>
+                <h3 className='mx-4'>TECH</h3>
+
+<div className="content">
+<ul  className='list list-unstyled mx-4'>
                         <li>Lorem ipsum</li>
                         <li>Lorem ips</li>
                         <li>Lorem ip</li>
@@ -57,11 +68,14 @@ const Categories = () => {
                         <img src="assets/Images/Vector.png" alt="" width={30} height={30} />
                         <p className='vector-text' >More on visual appeal.... </p>
                     </div>
+</div>
+
+                   
                 </div>
                
             </div>
             {/* 3rd row */}
-            <div className="category-content category-content-3 d-flex mt-5 text-white">
+            <div className="category-content category-image category-content-3 d-flex mt-5 text-white">
                 <div className="col-6 ">
                     <h3>TECH</h3>
                     <ul  className='list list-unstyled'>
@@ -77,7 +91,7 @@ const Categories = () => {
                     </div>
                 </div>
                 <div className="col-6 ">
-                <img className='category-img mx-5' src="assets/Images/img2.png" alt="" width={250} height={250} />
+                <img className='category-img ' src="assets/Images/img2.png" alt="" width={250} height={250} />
                 
                 </div>
             </div>
@@ -104,7 +118,7 @@ const Categories = () => {
                
             </div>
             {/* 5th row */}
-            <div className="category-content d-flex mt-5 text-white">
+            <div className="category-content category-image d-flex mt-5 text-white">
                 <div className="col-6 ">
                     <h3>TECH</h3>
                     <ul  className='list list-unstyled'>
@@ -120,10 +134,12 @@ const Categories = () => {
                     </div>
                 </div>
                 <div className="col-6 ">
-                <img className='category-img mx-5' src="assets/Images/img2.png" alt="" width={250} height={250} />
+                <img className='category-img ' src="assets/Images/img2.png" alt="" width={250} height={250} />
                 
                 </div>
             </div>
+            </div>
+           
             </div>
    </div>
   

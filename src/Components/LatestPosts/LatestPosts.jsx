@@ -52,12 +52,13 @@ const LatestPosts = () => {
                                 </div>
 
                                 <div className="latestpost-author-sec d-flex text-white">
-                                    <img src="assets/Images/author1.png" alt="Author" width={80} />
+                                    <img className="author-img" src="assets/Images/author1.png" alt="Author" width={80} />
                                     <div className="author-info">
                                         <p className="author-name">Leslie Alexander</p>
                                         <p className='author-info-date'>Ceo / April 22, 2024</p>
                                     </div>
                                     <img src="assets/Images/arrow-btn.png" className='latestpost-arrow-icon' alt="" width={50} />
+
                                 </div>
 
                          
