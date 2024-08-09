@@ -26,7 +26,7 @@ const CarouselSection = () => {
         showStatus={false}
         showArrows={false}
         showIndicators={false} // Hide default indicators
-        stopOnHover={true}
+        stopOnHover={false}
         selectedItem={currentIndex}
         onChange={handleOnChange}
       >
